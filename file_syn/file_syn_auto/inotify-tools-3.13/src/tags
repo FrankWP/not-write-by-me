@@ -1,0 +1,203 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run aclocal-1.9$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMDEP_FALSE	Makefile	/^AMDEP_FALSE = #$/;"	m
+AMDEP_TRUE	Makefile	/^AMDEP_TRUE = $/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run tar$/;"	m
+AM_CFLAGS	Makefile	/^AM_CFLAGS = -std=c99 -I..\/libinotifytools\/src -L..\/libinotifytools\/src$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run automake-1.9$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h \\$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(srcdir) -I$(top_builddir) -I$(top_builddir)\/libinotifytools\/src\/inotifytools$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(inotifywait_SOURCES) $(inotifywatch_SOURCES)$/;"	m
+DOXYGEN	Makefile	/^DOXYGEN = NO_DOXYGEN$/;"	m
+DOXYGEN_ENABLE_FALSE	Makefile	/^DOXYGEN_ENABLE_FALSE = $/;"	m
+DOXYGEN_ENABLE_TRUE	Makefile	/^DOXYGEN_ENABLE_TRUE = #$/;"	m
+ECHO	Makefile	/^ECHO = echo$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXCLUDE_CHUNK	inotifywait.c	32;"	d	file:
+EXCLUDE_CHUNK	inotifywatch.c	37;"	d	file:
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXIT_ERROR	inotifywait.c	28;"	d	file:
+EXIT_ERROR	inotifywatch.c	34;"	d	file:
+EXIT_OK	inotifywait.c	27;"	d	file:
+EXIT_OK	inotifywatch.c	33;"	d	file:
+EXIT_TIMEOUT	inotifywait.c	29;"	d	file:
+EXIT_TIMEOUT	inotifywatch.c	35;"	d	file:
+F77	Makefile	/^F77 = $/;"	m
+FFLAGS	Makefile	/^FFLAGS = $/;"	m
+FileList	common.h	/^} FileList;$/;"	t	typeref:struct:__anon1
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+LDADD	Makefile	/^LDADD = ..\/libinotifytools\/src\/libinotifytools.la$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) --tag=CC --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \\$/;"	m
+LIST_CHUNK	common.c	16;"	d	file:
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC --mode=compile $(CC) $(DEFS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run makeinfo$/;"	m
+MAXLEN	common.c	15;"	d	file:
+MAX_STRLEN	inotifywait.c	31;"	d	file:
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+PACKAGE	Makefile	/^PACKAGE = inotify-tools$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = rohan@mcgovern.id.au$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = inotify-tools$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = inotify-tools 3.13$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = inotify-tools$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 3.13$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SOURCES	Makefile	/^SOURCES = $(inotifywait_SOURCES) $(inotifywatch_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+VERSION	Makefile	/^VERSION = 3.13$/;"	m
+_GNU_SOURCE	inotifywatch.c	27;"	d	file:
+_niceassert	common.c	/^void _niceassert( long cond, int line, char const * file, char const * condstr,$/;"	f
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_F77	Makefile	/^ac_ct_F77 = $/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__fastdepCC_FALSE	Makefile	/^am__fastdepCC_FALSE = #$/;"	m
+am__fastdepCC_TRUE	Makefile	/^am__fastdepCC_TRUE = $/;"	m
+am__fastdepCXX_FALSE	Makefile	/^am__fastdepCXX_FALSE = #$/;"	m
+am__fastdepCXX_TRUE	Makefile	/^am__fastdepCXX_TRUE = $/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am_inotifywait_OBJECTS	Makefile	/^am_inotifywait_OBJECTS = inotifywait.$(OBJEXT) common.$(OBJEXT)$/;"	m
+am_inotifywatch_OBJECTS	Makefile	/^am_inotifywatch_OBJECTS = inotifywatch.$(OBJEXT) common.$(OBJEXT)$/;"	m
+binPROGRAMS_INSTALL	Makefile	/^binPROGRAMS_INSTALL = $(INSTALL_PROGRAM)$/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = inotifywait$(EXEEXT) inotifywatch$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+construct_path_list	common.c	/^FileList construct_path_list( int argc, char ** argv, char const * filename ) {$/;"	f
+csv_escape	inotifywait.c	/^char * csv_escape( char * string ) {$/;"	f
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+done	inotifywatch.c	/^static bool done;$/;"	v	file:
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+exclude_files	common.h	/^	char const ** exclude_files;$/;"	m	struct:__anon1
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+handle_impatient_user	inotifywatch.c	/^void handle_impatient_user( int signal __attribute__((unused)) ) {$/;"	f
+handle_signal	inotifywatch.c	/^void handle_signal( int signal __attribute__((unused)) ) {$/;"	f
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+inotifywait_DEPENDENCIES	Makefile	/^inotifywait_DEPENDENCIES = ..\/libinotifytools\/src\/libinotifytools.la$/;"	m
+inotifywait_LDADD	Makefile	/^inotifywait_LDADD = $(LDADD)$/;"	m
+inotifywait_OBJECTS	Makefile	/^inotifywait_OBJECTS = $(am_inotifywait_OBJECTS)$/;"	m
+inotifywait_SOURCES	Makefile	/^inotifywait_SOURCES = inotifywait.c common.c common.h$/;"	m
+inotifywatch_DEPENDENCIES	Makefile	/^inotifywatch_DEPENDENCIES = ..\/libinotifytools\/src\/libinotifytools.la$/;"	m
+inotifywatch_LDADD	Makefile	/^inotifywatch_LDADD = $(LDADD)$/;"	m
+inotifywatch_OBJECTS	Makefile	/^inotifywatch_OBJECTS = $(am_inotifywatch_OBJECTS)$/;"	m
+inotifywatch_SOURCES	Makefile	/^inotifywatch_SOURCES = inotifywatch.c common.c common.h$/;"	m
+install_sh	Makefile	/^install_sh = \/root\/file_syn_auto\/inotify-tools-3.13\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+isdir	common.c	/^int isdir( char const * path ) {$/;"	f
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+main	inotifywait.c	/^int main(int argc, char ** argv)$/;"	f
+main	inotifywatch.c	/^int main(int argc, char ** argv)$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = mkdir -p --$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+nasprintf	inotifywait.c	34;"	d	file:
+nasprintf	inotifywatch.c	39;"	d	file:
+niceassert	common.h	12;"	d
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+output_event_csv	inotifywait.c	/^void output_event_csv( struct inotify_event * event ) {$/;"	f
+parse_opts	inotifywait.c	/^bool parse_opts($/;"	f
+parse_opts	inotifywatch.c	/^bool parse_opts($/;"	f
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/inotify-tools$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/inotify-tools$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/inotify-tools$/;"	m
+prefix	Makefile	/^prefix = \/usr$/;"	m
+print_event_descriptions	common.c	/^void print_event_descriptions() {$/;"	f
+print_help	inotifywait.c	/^void print_help()$/;"	f
+print_help	inotifywatch.c	/^void print_help()$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+resize_if_necessary	common.c	18;"	d	file:
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = src$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+validate_format	inotifywait.c	/^void validate_format( char * fmt ) {$/;"	f
+watch_files	common.h	/^	char const ** watch_files;$/;"	m	struct:__anon1

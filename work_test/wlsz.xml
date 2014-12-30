@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<item cgiProgram="/cgi-bin/updateModify_new.cgi" title="网络地址" beforeScript="./script/updateCtlIp.sh before >/dev/null" script="/usr/local/hawk/shell/sortip.sh ip manage ha net > /dev/null">
+	<data_source >
+		<config_file name="/storage/hawk/etc/netconfig.conf"></config_file>
+ 	</data_source>
+	<table data_section="ip">
+  		<to config="/storage/hawk/etc/netconfig.conf" section="ip"></to>
+		<field name="网络设备" width="200">
+			<value type="option" config="/storage/hawk/etc/netconfig.conf" section="net" row="0" />
+		</field>
+		<field	name="IP地址" empty="no" key="key" width="400">
+			<value type="text"  valueType="ip" input_len="40" size="40" default=""></value>
+			<limit type="local_ip"/>
+		</field>
+		<field	name="子网掩码" empty="no" width="200">
+			<value type="text" valueType="ip" input_len="15" size="15" default=""></value>
+			<limit type="mask"/>
+		</field>
+		<field name="MTU" width="200">
+			<value type="text" input_len="4" size="15" default="1500"/>
+			<limit type="int" min="1000" max="2048"/>
+		</field>
+		<field name="删除" flag="delete" width="200" AllSelect="1">
+			<value type="checkbox" id="yes" />
+		</field>
+	</table>
+</item>

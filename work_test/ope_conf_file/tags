@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ExistRecord	tmp.c	/^int ExistRecord(int keyIndex,char *key,char *fileName,char *c)$/;"	f
+MALLOC_FALSE	tmp.c	3;"	d	file:
+OK	tmp.c	6;"	d	file:
+OPEN_FILE_READ_FALSE	tmp.c	4;"	d	file:
+STD_BUF	tmp.c	5;"	d	file:
+__conf_item	tmp.c	/^typedef struct __conf_item$/;"	s	file:
+__query_conf	tmp.c	/^typedef struct __query_conf$/;"	s	file:
+addRecord	tmp.c	/^int addRecord(int keyIndex,int numRecord,char **Record,char *fileName,char *c)$/;"	f
+cgiHeaderFlag	tmp.c	/^static int    cgiHeaderFlag = 0;$/;"	v	file:
+cgiPrintf	tmp.c	/^int cgiPrintf(char *fmt, ...)$/;"	f
+conf_item	tmp.c	/^} conf_item;$/;"	t	typeref:struct:__conf_item	file:
+deal_with_item_line	tmp.c	/^static conf_item *deal_with_item_line(char *read_line, query_conf **p_conf_que, conf_item **p_item_tail)$/;"	f	file:
+deal_with_label_line	tmp.c	/^static query_conf *deal_with_label_line(char *read_line, query_conf **p_conf_head, query_conf **p_conf_tail)$/;"	f	file:
+delMultiRecord	tmp.c	/^int delMultiRecord(int keyIndex,int numDel,char **delKey,char *fileName,char *c)$/;"	f
+delRecord	tmp.c	/^int delRecord(int keyIndex,char *key,char *fileName,char *c)$/;"	f
+find_label	tmp.c	/^query_conf *find_label(query_conf *p_query_conf, char *label_name)$/;"	f
+free_configuration	tmp.c	/^void free_configuration(query_conf **pque)$/;"	f
+free_item	tmp.c	/^void free_item(conf_item **item)$/;"	f
+getField	tmp.c	/^int getField( int Index,		\/\/ ×Ö¶ÎºÅ$/;"	f
+getFieldValue	tmp.c	/^int getFieldValue( int keyIndex,	\/\/ Ö÷¼üÐòºÅ$/;"	f
+get_value_from_label	tmp.c	/^char *get_value_from_label(query_conf *que, char *item_name)$/;"	f
+inet_atoul	tmp.c	/^unsigned int inet_atoul(const char * s)$/;"	f
+inet_ultoa	tmp.c	/^char * inet_ultoa(unsigned int u, char * s)$/;"	f
+item_name	tmp.c	/^    char *item_name;$/;"	m	struct:__conf_item	file:
+item_next	tmp.c	/^    struct __conf_item *item_next;$/;"	m	struct:__conf_item	typeref:struct:__conf_item::__conf_item	file:
+item_value	tmp.c	/^    char *item_value;$/;"	m	struct:__conf_item	file:
+label_item	tmp.c	/^    conf_item *label_item;$/;"	m	struct:__query_conf	file:
+label_name	tmp.c	/^    char *label_name;$/;"	m	struct:__query_conf	file:
+label_next	tmp.c	/^    struct __query_conf *label_next;$/;"	m	struct:__query_conf	typeref:struct:__query_conf::__query_conf	file:
+line_from_buf	tmp.c	/^char* line_from_buf(char *cursor, char *store, int storesz)$/;"	f
+load_configuration	tmp.c	/^query_conf * load_configuration(const char *filepath)$/;"	f
+mSplit	tmp.c	/^char **mSplit(	char *str, 			\/\/ Òª·Ö½âµÄ×Ö·û´®$/;"	f
+main	tmp.c	/^int main()$/;"	f
+pre_deal_with_line	tmp.c	/^char *pre_deal_with_line(char *line)$/;"	f
+query_conf	tmp.c	/^} query_conf;$/;"	t	typeref:struct:__query_conf	file:
+s_ip	tmp.c	/^	unsigned int s_ip;$/;"	m	struct:sock_conf	file:
+s_port	tmp.c	/^	unsigned short s_port;$/;"	m	struct:sock_conf	file:
+sc	tmp.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sock_conf	tmp.c	/^struct sock_conf$/;"	s	file:
+trim	tmp.c	/^char* trim(char *str)$/;"	f
+updateRecord	tmp.c	/^int updateRecord(int keyIndex,int numRecord,char **Record,char *fileName,char *c)$/;"	f

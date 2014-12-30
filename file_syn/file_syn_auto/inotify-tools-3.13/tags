@@ -1,0 +1,1270 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run aclocal-1.9$/;"	m
+ACLOCAL	libinotifytools/Makefile	/^ACLOCAL = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run aclocal-1.9$/;"	m
+ACLOCAL	libinotifytools/src/Makefile	/^ACLOCAL = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run aclocal-1.9$/;"	m
+ACLOCAL	libinotifytools/src/inotifytools/Makefile	/^ACLOCAL = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run aclocal-1.9$/;"	m
+ACLOCAL	man/Makefile	/^ACLOCAL = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run aclocal-1.9$/;"	m
+ACLOCAL	src/Makefile	/^ACLOCAL = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run aclocal-1.9$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	libinotifytools/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	libinotifytools/src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	libinotifytools/src/inotifytools/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	man/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMDEP_FALSE	Makefile	/^AMDEP_FALSE = #$/;"	m
+AMDEP_FALSE	libinotifytools/Makefile	/^AMDEP_FALSE = #$/;"	m
+AMDEP_FALSE	libinotifytools/src/Makefile	/^AMDEP_FALSE = #$/;"	m
+AMDEP_FALSE	libinotifytools/src/inotifytools/Makefile	/^AMDEP_FALSE = #$/;"	m
+AMDEP_FALSE	man/Makefile	/^AMDEP_FALSE = #$/;"	m
+AMDEP_FALSE	src/Makefile	/^AMDEP_FALSE = #$/;"	m
+AMDEP_TRUE	Makefile	/^AMDEP_TRUE = $/;"	m
+AMDEP_TRUE	libinotifytools/Makefile	/^AMDEP_TRUE = $/;"	m
+AMDEP_TRUE	libinotifytools/src/Makefile	/^AMDEP_TRUE = $/;"	m
+AMDEP_TRUE	libinotifytools/src/inotifytools/Makefile	/^AMDEP_TRUE = $/;"	m
+AMDEP_TRUE	man/Makefile	/^AMDEP_TRUE = $/;"	m
+AMDEP_TRUE	src/Makefile	/^AMDEP_TRUE = $/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run tar$/;"	m
+AMTAR	libinotifytools/Makefile	/^AMTAR = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run tar$/;"	m
+AMTAR	libinotifytools/src/Makefile	/^AMTAR = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run tar$/;"	m
+AMTAR	libinotifytools/src/inotifytools/Makefile	/^AMTAR = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run tar$/;"	m
+AMTAR	man/Makefile	/^AMTAR = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run tar$/;"	m
+AMTAR	src/Makefile	/^AMTAR = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run tar$/;"	m
+AM_CFLAGS	libinotifytools/src/Makefile	/^AM_CFLAGS = -std=c99$/;"	m
+AM_CFLAGS	src/Makefile	/^AM_CFLAGS = -std=c99 -I..\/libinotifytools\/src -L..\/libinotifytools\/src$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AR	libinotifytools/Makefile	/^AR = ar$/;"	m
+AR	libinotifytools/src/Makefile	/^AR = ar$/;"	m
+AR	libinotifytools/src/inotifytools/Makefile	/^AR = ar$/;"	m
+AR	man/Makefile	/^AR = ar$/;"	m
+AR	src/Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoconf$/;"	m
+AUTOCONF	libinotifytools/Makefile	/^AUTOCONF = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoconf$/;"	m
+AUTOCONF	libinotifytools/src/Makefile	/^AUTOCONF = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoconf$/;"	m
+AUTOCONF	libinotifytools/src/inotifytools/Makefile	/^AUTOCONF = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoconf$/;"	m
+AUTOCONF	man/Makefile	/^AUTOCONF = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoconf$/;"	m
+AUTOCONF	src/Makefile	/^AUTOCONF = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoheader$/;"	m
+AUTOHEADER	libinotifytools/Makefile	/^AUTOHEADER = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoheader$/;"	m
+AUTOHEADER	libinotifytools/src/Makefile	/^AUTOHEADER = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoheader$/;"	m
+AUTOHEADER	libinotifytools/src/inotifytools/Makefile	/^AUTOHEADER = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoheader$/;"	m
+AUTOHEADER	man/Makefile	/^AUTOHEADER = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoheader$/;"	m
+AUTOHEADER	src/Makefile	/^AUTOHEADER = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run automake-1.9$/;"	m
+AUTOMAKE	libinotifytools/Makefile	/^AUTOMAKE = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run automake-1.9$/;"	m
+AUTOMAKE	libinotifytools/src/Makefile	/^AUTOMAKE = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run automake-1.9$/;"	m
+AUTOMAKE	libinotifytools/src/inotifytools/Makefile	/^AUTOMAKE = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run automake-1.9$/;"	m
+AUTOMAKE	man/Makefile	/^AUTOMAKE = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run automake-1.9$/;"	m
+AUTOMAKE	src/Makefile	/^AUTOMAKE = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run automake-1.9$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+AWK	libinotifytools/Makefile	/^AWK = gawk$/;"	m
+AWK	libinotifytools/src/Makefile	/^AWK = gawk$/;"	m
+AWK	libinotifytools/src/inotifytools/Makefile	/^AWK = gawk$/;"	m
+AWK	man/Makefile	/^AWK = gawk$/;"	m
+AWK	src/Makefile	/^AWK = gawk$/;"	m
+BLACK	libinotifytools/src/redblack.c	/^enum nodecolour { BLACK, RED };$/;"	e	enum:nodecolour	file:
+BUFSZ	libinotifytools/src/test.c	188;"	d	file:
+BUFSZ	libinotifytools/src/test.c	237;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CC	libinotifytools/Makefile	/^CC = gcc$/;"	m
+CC	libinotifytools/src/Makefile	/^CC = gcc$/;"	m
+CC	libinotifytools/src/inotifytools/Makefile	/^CC = gcc$/;"	m
+CC	man/Makefile	/^CC = gcc$/;"	m
+CC	src/Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	libinotifytools/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	libinotifytools/src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	libinotifytools/src/inotifytools/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	man/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	src/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	libinotifytools/src/Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	src/Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	libinotifytools/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	libinotifytools/src/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	libinotifytools/src/inotifytools/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	man/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	src/Makefile	/^CFLAGS = -g -O2$/;"	m
+COMPILE	libinotifytools/src/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	src/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	libinotifytools/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	libinotifytools/src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	libinotifytools/src/inotifytools/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	man/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	src/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = config.h \\$/;"	m
+CONFIG_HEADER	libinotifytools/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h \\$/;"	m
+CONFIG_HEADER	libinotifytools/src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h \\$/;"	m
+CONFIG_HEADER	libinotifytools/src/inotifytools/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h inotify.h$/;"	m
+CONFIG_HEADER	man/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h \\$/;"	m
+CONFIG_HEADER	src/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h \\$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPP	libinotifytools/Makefile	/^CPP = gcc -E$/;"	m
+CPP	libinotifytools/src/Makefile	/^CPP = gcc -E$/;"	m
+CPP	libinotifytools/src/inotifytools/Makefile	/^CPP = gcc -E$/;"	m
+CPP	man/Makefile	/^CPP = gcc -E$/;"	m
+CPP	src/Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	libinotifytools/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	libinotifytools/src/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	libinotifytools/src/inotifytools/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	man/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	src/Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	libinotifytools/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	libinotifytools/src/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	src/Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXX	libinotifytools/Makefile	/^CXX = g++$/;"	m
+CXX	libinotifytools/src/Makefile	/^CXX = g++$/;"	m
+CXX	libinotifytools/src/inotifytools/Makefile	/^CXX = g++$/;"	m
+CXX	man/Makefile	/^CXX = g++$/;"	m
+CXX	src/Makefile	/^CXX = g++$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	libinotifytools/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	libinotifytools/src/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	libinotifytools/src/inotifytools/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	man/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	src/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	libinotifytools/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	libinotifytools/src/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	libinotifytools/src/inotifytools/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	man/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	src/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	libinotifytools/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	libinotifytools/src/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	libinotifytools/src/inotifytools/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	man/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	src/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	libinotifytools/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	libinotifytools/src/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	libinotifytools/src/inotifytools/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	man/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	src/Makefile	/^CYGPATH_W = echo$/;"	m
+DATA	libinotifytools/src/Makefile	/^DATA = $(doc_DATA)$/;"	m
+DEFAULT_INCLUDES	libinotifytools/src/Makefile	/^DEFAULT_INCLUDES = -I. -I$(srcdir) -I$(top_builddir) -I$(top_builddir)\/libinotifytools\/src\/inotifytools$/;"	m
+DEFAULT_INCLUDES	src/Makefile	/^DEFAULT_INCLUDES = -I. -I$(srcdir) -I$(top_builddir) -I$(top_builddir)\/libinotifytools\/src\/inotifytools$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	libinotifytools/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	libinotifytools/src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	libinotifytools/src/inotifytools/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	man/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	src/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	libinotifytools/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	libinotifytools/src/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	libinotifytools/src/inotifytools/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	man/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	src/Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	libinotifytools/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	libinotifytools/src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	libinotifytools/src/inotifytools/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	man/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	src/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = README $(am__configure_deps) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	libinotifytools/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	libinotifytools/src/Makefile	/^DIST_COMMON = $(nobase_include_HEADERS) $(srcdir)\/Makefile.am \\$/;"	m
+DIST_COMMON	libinotifytools/src/inotifytools/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in \\$/;"	m
+DIST_COMMON	man/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	src/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	libinotifytools/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	libinotifytools/src/Makefile	/^DIST_SOURCES = $(libinotifytools_la_SOURCES) $(test_SOURCES)$/;"	m
+DIST_SOURCES	libinotifytools/src/inotifytools/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	man/Makefile	/^DIST_SOURCES =$/;"	m
+DIST_SOURCES	src/Makefile	/^DIST_SOURCES = $(inotifywait_SOURCES) $(inotifywatch_SOURCES)$/;"	m
+DIST_SUBDIRS	Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_SUBDIRS	libinotifytools/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DIST_SUBDIRS	libinotifytools/src/Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DOXYGEN	Makefile	/^DOXYGEN = NO_DOXYGEN$/;"	m
+DOXYGEN	libinotifytools/Makefile	/^DOXYGEN = NO_DOXYGEN$/;"	m
+DOXYGEN	libinotifytools/src/Makefile	/^DOXYGEN = NO_DOXYGEN$/;"	m
+DOXYGEN	libinotifytools/src/inotifytools/Makefile	/^DOXYGEN = NO_DOXYGEN$/;"	m
+DOXYGEN	man/Makefile	/^DOXYGEN = NO_DOXYGEN$/;"	m
+DOXYGEN	src/Makefile	/^DOXYGEN = NO_DOXYGEN$/;"	m
+DOXYGEN_ENABLE_FALSE	Makefile	/^DOXYGEN_ENABLE_FALSE = $/;"	m
+DOXYGEN_ENABLE_FALSE	libinotifytools/Makefile	/^DOXYGEN_ENABLE_FALSE = $/;"	m
+DOXYGEN_ENABLE_FALSE	libinotifytools/src/Makefile	/^DOXYGEN_ENABLE_FALSE = $/;"	m
+DOXYGEN_ENABLE_FALSE	libinotifytools/src/inotifytools/Makefile	/^DOXYGEN_ENABLE_FALSE = $/;"	m
+DOXYGEN_ENABLE_FALSE	man/Makefile	/^DOXYGEN_ENABLE_FALSE = $/;"	m
+DOXYGEN_ENABLE_FALSE	src/Makefile	/^DOXYGEN_ENABLE_FALSE = $/;"	m
+DOXYGEN_ENABLE_TRUE	Makefile	/^DOXYGEN_ENABLE_TRUE = #$/;"	m
+DOXYGEN_ENABLE_TRUE	libinotifytools/Makefile	/^DOXYGEN_ENABLE_TRUE = #$/;"	m
+DOXYGEN_ENABLE_TRUE	libinotifytools/src/Makefile	/^DOXYGEN_ENABLE_TRUE = #$/;"	m
+DOXYGEN_ENABLE_TRUE	libinotifytools/src/inotifytools/Makefile	/^DOXYGEN_ENABLE_TRUE = #$/;"	m
+DOXYGEN_ENABLE_TRUE	man/Makefile	/^DOXYGEN_ENABLE_TRUE = #$/;"	m
+DOXYGEN_ENABLE_TRUE	src/Makefile	/^DOXYGEN_ENABLE_TRUE = #$/;"	m
+ECHO	Makefile	/^ECHO = echo$/;"	m
+ECHO	libinotifytools/Makefile	/^ECHO = echo$/;"	m
+ECHO	libinotifytools/src/Makefile	/^ECHO = echo$/;"	m
+ECHO	libinotifytools/src/inotifytools/Makefile	/^ECHO = echo$/;"	m
+ECHO	man/Makefile	/^ECHO = echo$/;"	m
+ECHO	src/Makefile	/^ECHO = echo$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_C	libinotifytools/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	libinotifytools/src/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	libinotifytools/src/inotifytools/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	man/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	src/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	libinotifytools/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	libinotifytools/src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	libinotifytools/src/inotifytools/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	man/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	src/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+ECHO_T	libinotifytools/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	libinotifytools/src/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	libinotifytools/src/inotifytools/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	man/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	src/Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	libinotifytools/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	libinotifytools/src/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	libinotifytools/src/inotifytools/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	man/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	src/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ENTER	libinotifytools/src/test.c	52;"	d	file:
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+ETAGS	libinotifytools/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	libinotifytools/src/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	src/Makefile	/^ETAGS = etags$/;"	m
+EXCLUDE_CHUNK	src/inotifywait.c	32;"	d	file:
+EXCLUDE_CHUNK	src/inotifywatch.c	37;"	d	file:
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXEEXT	libinotifytools/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	libinotifytools/src/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	libinotifytools/src/inotifytools/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	man/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	src/Makefile	/^EXEEXT = $/;"	m
+EXIT	libinotifytools/src/test.c	53;"	d	file:
+EXIT_ERROR	src/inotifywait.c	28;"	d	file:
+EXIT_ERROR	src/inotifywatch.c	34;"	d	file:
+EXIT_OK	src/inotifywait.c	27;"	d	file:
+EXIT_OK	src/inotifywatch.c	33;"	d	file:
+EXIT_TIMEOUT	src/inotifywait.c	29;"	d	file:
+EXIT_TIMEOUT	src/inotifywatch.c	35;"	d	file:
+EXTRA_DIST	libinotifytools/src/Makefile	/^EXTRA_DIST = example.c Doxyfile$/;"	m
+EXTRA_DIST	libinotifytools/src/inotifytools/Makefile	/^EXTRA_DIST = inotify-nosys.h inotifytools.h$/;"	m
+EXTRA_DIST	man/Makefile	/^EXTRA_DIST = $(man_MANS)$/;"	m
+F77	Makefile	/^F77 = $/;"	m
+F77	libinotifytools/Makefile	/^F77 = $/;"	m
+F77	libinotifytools/src/Makefile	/^F77 = $/;"	m
+F77	libinotifytools/src/inotifytools/Makefile	/^F77 = $/;"	m
+F77	man/Makefile	/^F77 = $/;"	m
+F77	src/Makefile	/^F77 = $/;"	m
+FFLAGS	Makefile	/^FFLAGS = $/;"	m
+FFLAGS	libinotifytools/Makefile	/^FFLAGS = $/;"	m
+FFLAGS	libinotifytools/src/Makefile	/^FFLAGS = $/;"	m
+FFLAGS	libinotifytools/src/inotifytools/Makefile	/^FFLAGS = $/;"	m
+FFLAGS	man/Makefile	/^FFLAGS = $/;"	m
+FFLAGS	src/Makefile	/^FFLAGS = $/;"	m
+FileList	src/common.h	/^} FileList;$/;"	t	typeref:struct:__anon1
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	libinotifytools/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	libinotifytools/src/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	libinotifytools/src/inotifytools/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	man/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	src/Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+HAVE_DLFCN_H	config.h	5;"	d
+HAVE_INTTYPES_H	config.h	8;"	d
+HAVE_MCHECK_H	config.h	11;"	d
+HAVE_MEMORY_H	config.h	14;"	d
+HAVE_STDINT_H	config.h	17;"	d
+HAVE_STDLIB_H	config.h	20;"	d
+HAVE_STRINGS_H	config.h	23;"	d
+HAVE_STRING_H	config.h	26;"	d
+HAVE_SYS_INOTIFY_H	config.h	29;"	d
+HAVE_SYS_STAT_H	config.h	32;"	d
+HAVE_SYS_TYPES_H	config.h	35;"	d
+HAVE_UNISTD_H	config.h	38;"	d
+HEADERS	libinotifytools/src/Makefile	/^HEADERS = $(nobase_include_HEADERS)$/;"	m
+INFO	libinotifytools/src/test.c	47;"	d	file:
+INNER_LIMIT	libinotifytools/src/test.c	246;"	d	file:
+INOTIFYTOOLS_P_H	libinotifytools/src/inotifytools_p.h	2;"	d
+INOTIFY_PROCDIR	libinotifytools/src/inotifytools.c	124;"	d	file:
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	libinotifytools/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	libinotifytools/src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	libinotifytools/src/inotifytools/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	man/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL	src/Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	libinotifytools/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	libinotifytools/src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	libinotifytools/src/inotifytools/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	man/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	src/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	libinotifytools/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	libinotifytools/src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	libinotifytools/src/inotifytools/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	man/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	src/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	libinotifytools/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	libinotifytools/src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	libinotifytools/src/inotifytools/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	man/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	src/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	libinotifytools/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	libinotifytools/src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	libinotifytools/src/inotifytools/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	man/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	src/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	libinotifytools/Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	libinotifytools/src/Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	libinotifytools/src/inotifytools/Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	man/Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	src/Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+INSTANCES_PATH	libinotifytools/src/inotifytools.c	127;"	d	file:
+IN_ACCESS	libinotifytools/src/inotifytools/inotify-nosys.h	31;"	d
+IN_ALL_EVENTS	libinotifytools/src/inotifytools/inotify-nosys.h	65;"	d
+IN_ATTRIB	libinotifytools/src/inotifytools/inotify-nosys.h	33;"	d
+IN_CLOSE	libinotifytools/src/inotifytools/inotify-nosys.h	50;"	d
+IN_CLOSE_NOWRITE	libinotifytools/src/inotifytools/inotify-nosys.h	35;"	d
+IN_CLOSE_WRITE	libinotifytools/src/inotifytools/inotify-nosys.h	34;"	d
+IN_CREATE	libinotifytools/src/inotifytools/inotify-nosys.h	39;"	d
+IN_DELETE	libinotifytools/src/inotifytools/inotify-nosys.h	40;"	d
+IN_DELETE_SELF	libinotifytools/src/inotifytools/inotify-nosys.h	41;"	d
+IN_DONT_FOLLOW	libinotifytools/src/inotifytools/inotify-nosys.h	55;"	d
+IN_IGNORED	libinotifytools/src/inotifytools/inotify-nosys.h	47;"	d
+IN_ISDIR	libinotifytools/src/inotifytools/inotify-nosys.h	57;"	d
+IN_MASK_ADD	libinotifytools/src/inotifytools/inotify-nosys.h	56;"	d
+IN_MODIFY	libinotifytools/src/inotifytools/inotify-nosys.h	32;"	d
+IN_MOVE	libinotifytools/src/inotifytools/inotify-nosys.h	51;"	d
+IN_MOVED_FROM	libinotifytools/src/inotifytools/inotify-nosys.h	37;"	d
+IN_MOVED_TO	libinotifytools/src/inotifytools/inotify-nosys.h	38;"	d
+IN_MOVE_SELF	libinotifytools/src/inotifytools/inotify-nosys.h	42;"	d
+IN_ONESHOT	libinotifytools/src/inotifytools/inotify-nosys.h	58;"	d
+IN_ONLYDIR	libinotifytools/src/inotifytools/inotify-nosys.h	54;"	d
+IN_OPEN	libinotifytools/src/inotifytools/inotify-nosys.h	36;"	d
+IN_Q_OVERFLOW	libinotifytools/src/inotifytools/inotify-nosys.h	46;"	d
+IN_UNMOUNT	libinotifytools/src/inotifytools/inotify-nosys.h	45;"	d
+LDADD	src/Makefile	/^LDADD = ..\/libinotifytools\/src\/libinotifytools.la$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	libinotifytools/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	libinotifytools/src/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	libinotifytools/src/inotifytools/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	man/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	src/Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	libinotifytools/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	libinotifytools/src/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	libinotifytools/src/inotifytools/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	man/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	src/Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBS	libinotifytools/Makefile	/^LIBS = $/;"	m
+LIBS	libinotifytools/src/Makefile	/^LIBS = $/;"	m
+LIBS	libinotifytools/src/inotifytools/Makefile	/^LIBS = $/;"	m
+LIBS	man/Makefile	/^LIBS = $/;"	m
+LIBS	src/Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	libinotifytools/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	libinotifytools/src/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	libinotifytools/src/inotifytools/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	man/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	src/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	libinotifytools/src/Makefile	/^LINK = $(LIBTOOL) --tag=CC --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \\$/;"	m
+LINK	src/Makefile	/^LINK = $(LIBTOOL) --tag=CC --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \\$/;"	m
+LIST_CHUNK	src/common.c	16;"	d	file:
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LN_S	libinotifytools/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	libinotifytools/src/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	libinotifytools/src/inotifytools/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	man/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	src/Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	libinotifytools/src/Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC --mode=compile $(CC) $(DEFS) \\$/;"	m
+LTCOMPILE	src/Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC --mode=compile $(CC) $(DEFS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	libinotifytools/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	libinotifytools/src/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	libinotifytools/src/inotifytools/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	man/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	src/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	libinotifytools/src/Makefile	/^LTLIBRARIES = $(lib_LTLIBRARIES)$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run makeinfo$/;"	m
+MAKEINFO	libinotifytools/Makefile	/^MAKEINFO = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run makeinfo$/;"	m
+MAKEINFO	libinotifytools/src/Makefile	/^MAKEINFO = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run makeinfo$/;"	m
+MAKEINFO	libinotifytools/src/inotifytools/Makefile	/^MAKEINFO = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run makeinfo$/;"	m
+MAKEINFO	man/Makefile	/^MAKEINFO = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run makeinfo$/;"	m
+MAKEINFO	src/Makefile	/^MAKEINFO = ${SHELL} \/root\/file_syn_auto\/inotify-tools-3.13\/missing --run makeinfo$/;"	m
+MANS	man/Makefile	/^MANS = $(man_MANS)$/;"	m
+MAXLEN	src/common.c	15;"	d	file:
+MAX_EVENTS	libinotifytools/src/inotifytools.c	122;"	d	file:
+MAX_STRLEN	libinotifytools/src/inotifytools.c	123;"	d	file:
+MAX_STRLEN	src/inotifywait.c	31;"	d	file:
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	libinotifytools/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	libinotifytools/src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	libinotifytools/src/inotifytools/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	man/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	src/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	libinotifytools/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	libinotifytools/src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	libinotifytools/src/inotifytools/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	man/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	src/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NROFF	man/Makefile	/^NROFF = nroff$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	libinotifytools/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	libinotifytools/src/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	libinotifytools/src/inotifytools/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	man/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	src/Makefile	/^OBJEXT = o$/;"	m
+OUTER_LIMIT	libinotifytools/src/test.c	247;"	d	file:
+PACKAGE	Makefile	/^PACKAGE = inotify-tools$/;"	m
+PACKAGE	config.h	41;"	d
+PACKAGE	libinotifytools/Makefile	/^PACKAGE = inotify-tools$/;"	m
+PACKAGE	libinotifytools/src/Makefile	/^PACKAGE = inotify-tools$/;"	m
+PACKAGE	libinotifytools/src/inotifytools/Makefile	/^PACKAGE = inotify-tools$/;"	m
+PACKAGE	man/Makefile	/^PACKAGE = inotify-tools$/;"	m
+PACKAGE	src/Makefile	/^PACKAGE = inotify-tools$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = rohan@mcgovern.id.au$/;"	m
+PACKAGE_BUGREPORT	config.h	44;"	d
+PACKAGE_BUGREPORT	libinotifytools/Makefile	/^PACKAGE_BUGREPORT = rohan@mcgovern.id.au$/;"	m
+PACKAGE_BUGREPORT	libinotifytools/src/Makefile	/^PACKAGE_BUGREPORT = rohan@mcgovern.id.au$/;"	m
+PACKAGE_BUGREPORT	libinotifytools/src/inotifytools/Makefile	/^PACKAGE_BUGREPORT = rohan@mcgovern.id.au$/;"	m
+PACKAGE_BUGREPORT	man/Makefile	/^PACKAGE_BUGREPORT = rohan@mcgovern.id.au$/;"	m
+PACKAGE_BUGREPORT	src/Makefile	/^PACKAGE_BUGREPORT = rohan@mcgovern.id.au$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = inotify-tools$/;"	m
+PACKAGE_NAME	config.h	47;"	d
+PACKAGE_NAME	libinotifytools/Makefile	/^PACKAGE_NAME = inotify-tools$/;"	m
+PACKAGE_NAME	libinotifytools/src/Makefile	/^PACKAGE_NAME = inotify-tools$/;"	m
+PACKAGE_NAME	libinotifytools/src/inotifytools/Makefile	/^PACKAGE_NAME = inotify-tools$/;"	m
+PACKAGE_NAME	man/Makefile	/^PACKAGE_NAME = inotify-tools$/;"	m
+PACKAGE_NAME	src/Makefile	/^PACKAGE_NAME = inotify-tools$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = inotify-tools 3.13$/;"	m
+PACKAGE_STRING	config.h	50;"	d
+PACKAGE_STRING	libinotifytools/Makefile	/^PACKAGE_STRING = inotify-tools 3.13$/;"	m
+PACKAGE_STRING	libinotifytools/src/Makefile	/^PACKAGE_STRING = inotify-tools 3.13$/;"	m
+PACKAGE_STRING	libinotifytools/src/inotifytools/Makefile	/^PACKAGE_STRING = inotify-tools 3.13$/;"	m
+PACKAGE_STRING	man/Makefile	/^PACKAGE_STRING = inotify-tools 3.13$/;"	m
+PACKAGE_STRING	src/Makefile	/^PACKAGE_STRING = inotify-tools 3.13$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = inotify-tools$/;"	m
+PACKAGE_TARNAME	config.h	53;"	d
+PACKAGE_TARNAME	libinotifytools/Makefile	/^PACKAGE_TARNAME = inotify-tools$/;"	m
+PACKAGE_TARNAME	libinotifytools/src/Makefile	/^PACKAGE_TARNAME = inotify-tools$/;"	m
+PACKAGE_TARNAME	libinotifytools/src/inotifytools/Makefile	/^PACKAGE_TARNAME = inotify-tools$/;"	m
+PACKAGE_TARNAME	man/Makefile	/^PACKAGE_TARNAME = inotify-tools$/;"	m
+PACKAGE_TARNAME	src/Makefile	/^PACKAGE_TARNAME = inotify-tools$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 3.13$/;"	m
+PACKAGE_VERSION	config.h	56;"	d
+PACKAGE_VERSION	libinotifytools/Makefile	/^PACKAGE_VERSION = 3.13$/;"	m
+PACKAGE_VERSION	libinotifytools/src/Makefile	/^PACKAGE_VERSION = 3.13$/;"	m
+PACKAGE_VERSION	libinotifytools/src/inotifytools/Makefile	/^PACKAGE_VERSION = 3.13$/;"	m
+PACKAGE_VERSION	man/Makefile	/^	PACKAGE_VERSION=`sed -n -r -e 's|AC_INIT\\(.+, \\[(.+)\\], .+\\)|\\1|p' \\$/;"	m
+PACKAGE_VERSION	man/Makefile	/^PACKAGE_VERSION = 3.13$/;"	m
+PACKAGE_VERSION	src/Makefile	/^PACKAGE_VERSION = 3.13$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	libinotifytools/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	libinotifytools/src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	libinotifytools/src/inotifytools/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	man/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	src/Makefile	/^PATH_SEPARATOR = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	libinotifytools/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	libinotifytools/src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	libinotifytools/src/inotifytools/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	man/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	src/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	libinotifytools/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	libinotifytools/src/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	libinotifytools/src/inotifytools/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	man/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	src/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	libinotifytools/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	libinotifytools/src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	libinotifytools/src/inotifytools/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	man/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	src/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	libinotifytools/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	libinotifytools/src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	libinotifytools/src/inotifytools/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	man/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	src/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	src/Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+QUEUE_SIZE_PATH	libinotifytools/src/inotifytools.c	126;"	d	file:
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	libinotifytools/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	libinotifytools/src/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	libinotifytools/src/inotifytools/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	man/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	src/Makefile	/^RANLIB = ranlib$/;"	m
+RBLIST	libinotifytools/src/redblack.h	79;"	d
+RBNULL	libinotifytools/src/redblack.c	67;"	d	file:
+RB_CMP	libinotifytools/src/redblack.h	43;"	d
+RB_ENTRY	libinotifytools/src/redblack.c	/^RB_STATIC const RB_ENTRY(data_t) * $/;"	f
+RB_ENTRY	libinotifytools/src/redblack.c	/^RB_STATIC const RB_ENTRY(data_t) *$/;"	f
+RB_ENTRY	libinotifytools/src/redblack.c	/^RB_STATIC struct RB_ENTRY(tree) *$/;"	f
+RB_ENTRY	libinotifytools/src/redblack.c	/^static const RB_ENTRY(data_t) * $/;"	f	file:
+RB_ENTRY	libinotifytools/src/redblack.c	/^static struct RB_ENTRY(node) *$/;"	f	file:
+RB_ENTRY	libinotifytools/src/redblack.c	/^static struct RB_ENTRY(node) *RB_ENTRY(_alloc)() {return (struct RB_ENTRY(node) *) malloc(sizeof(struct RB_ENTRY(node)));}$/;"	f	file:
+RB_ENTRY	libinotifytools/src/redblack.c	/^struct RB_ENTRY(node)$/;"	f
+RB_ENTRY	libinotifytools/src/redblack.c	918;"	d	file:
+RB_ENTRY	libinotifytools/src/redblack.h	/^struct RB_ENTRY(lists) { $/;"	f
+RB_ENTRY	libinotifytools/src/redblack.h	/^struct RB_ENTRY(tree) {$/;"	f
+RB_ENTRY	libinotifytools/src/redblack.h	45;"	d
+RB_GET	libinotifytools/src/redblack.c	50;"	d	file:
+RB_INLINE	libinotifytools/src/redblack.h	44;"	d
+RB_LUEQUAL	libinotifytools/src/redblack.h	54;"	d
+RB_LUFIRST	libinotifytools/src/redblack.h	61;"	d
+RB_LUGREAT	libinotifytools/src/redblack.h	58;"	d
+RB_LUGTEQ	libinotifytools/src/redblack.h	55;"	d
+RB_LULAST	libinotifytools/src/redblack.h	62;"	d
+RB_LULESS	libinotifytools/src/redblack.h	57;"	d
+RB_LULTEQ	libinotifytools/src/redblack.h	56;"	d
+RB_LUNEXT	libinotifytools/src/redblack.h	59;"	d
+RB_LUPREV	libinotifytools/src/redblack.h	60;"	d
+RB_NONE	libinotifytools/src/redblack.h	53;"	d
+RB_SET	libinotifytools/src/redblack.c	51;"	d	file:
+RB_STATIC	libinotifytools/src/redblack.h	49;"	d
+RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RECURSIVE_TARGETS	libinotifytools/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RECURSIVE_TARGETS	libinotifytools/src/Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+RED	libinotifytools/src/redblack.c	/^enum nodecolour { BLACK, RED };$/;"	e	enum:nodecolour	file:
+RESET	libinotifytools/src/test.c	189;"	d	file:
+RETURN	libinotifytools/src/inotifytools.c	1105;"	d	file:
+RETURN	libinotifytools/src/inotifytools.c	1218;"	d	file:
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SED	libinotifytools/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	libinotifytools/src/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	libinotifytools/src/inotifytools/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	man/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	src/Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	libinotifytools/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	libinotifytools/src/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	libinotifytools/src/inotifytools/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	man/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	src/Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	libinotifytools/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	libinotifytools/src/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	libinotifytools/src/inotifytools/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	man/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	src/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SOURCES	Makefile	/^SOURCES =$/;"	m
+SOURCES	libinotifytools/Makefile	/^SOURCES =$/;"	m
+SOURCES	libinotifytools/src/Makefile	/^SOURCES = $(libinotifytools_la_SOURCES) $(test_SOURCES)$/;"	m
+SOURCES	libinotifytools/src/inotifytools/Makefile	/^SOURCES =$/;"	m
+SOURCES	man/Makefile	/^SOURCES =$/;"	m
+SOURCES	src/Makefile	/^SOURCES = $(inotifywait_SOURCES) $(inotifywatch_SOURCES)$/;"	m
+STDC_HEADERS	config.h	59;"	d
+STRIP	Makefile	/^STRIP = strip$/;"	m
+STRIP	libinotifytools/Makefile	/^STRIP = strip$/;"	m
+STRIP	libinotifytools/src/Makefile	/^STRIP = strip$/;"	m
+STRIP	libinotifytools/src/inotifytools/Makefile	/^STRIP = strip$/;"	m
+STRIP	man/Makefile	/^STRIP = strip$/;"	m
+STRIP	src/Makefile	/^STRIP = strip$/;"	m
+SUBDIRS	Makefile	/^SUBDIRS = libinotifytools src man$/;"	m
+SUBDIRS	libinotifytools/Makefile	/^SUBDIRS = src$/;"	m
+SUBDIRS	libinotifytools/src/Makefile	/^SUBDIRS = inotifytools$/;"	m
+SYS_INOTIFY_H_EXISTS_AND_WORKS	config.h	62;"	d
+SYS_INOTIFY_H_EXISTS_AND_WORKS	libinotifytools/src/inotifytools/inotify.h	6;"	d
+TESTS	libinotifytools/src/Makefile	/^TESTS = test$/;"	m
+TEST_DIR	libinotifytools/src/test.c	45;"	d	file:
+VERSION	Makefile	/^VERSION = 3.13$/;"	m
+VERSION	config.h	65;"	d
+VERSION	libinotifytools/Makefile	/^VERSION = 3.13$/;"	m
+VERSION	libinotifytools/src/Makefile	/^VERSION = 3.13$/;"	m
+VERSION	libinotifytools/src/inotifytools/Makefile	/^VERSION = 3.13$/;"	m
+VERSION	man/Makefile	/^VERSION = 3.13$/;"	m
+VERSION	src/Makefile	/^VERSION = 3.13$/;"	m
+VISIT	libinotifytools/src/redblack.h	/^VISIT;$/;"	t	typeref:enum:__anon2
+WATCHES_SIZE_PATH	libinotifytools/src/inotifytools.c	125;"	d	file:
+_GNU_SOURCE	config.h	68;"	d
+_GNU_SOURCE	src/inotifywatch.c	27;"	d	file:
+_INOTIFYTOOLS_INOTIFY_H	libinotifytools/src/inotifytools/inotify.h	3;"	d
+_LINUX_INOTIFY_H	libinotifytools/src/inotifytools/inotify-nosys.h	10;"	d
+_REDBLACK_H	libinotifytools/src/redblack.h	135;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	103;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	108;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	114;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	119;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	124;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	129;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	134;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	139;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	144;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	72;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	77;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	82;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	87;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	92;"	d
+__NR_inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	98;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	102;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	107;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	113;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	118;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	123;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	128;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	133;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	138;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	143;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	71;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	76;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	81;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	86;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	91;"	d
+__NR_inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	97;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	104;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	109;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	115;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	120;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	125;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	130;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	135;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	140;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	145;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	73;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	78;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	83;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	88;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	93;"	d
+__NR_inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	99;"	d
+__USE_MISC	libinotifytools/src/test.c	8;"	d	file:
+__flexarr	libinotifytools/src/inotifytools/inotify-nosys.h	/^	char		name __flexarr;	\/* stub for possible name *\/$/;"	m	struct:inotify_event
+_compare	libinotifytools/src/test.c	/^int _compare( int value, int expval, char const* act_str, char const* exp_str, char const* file,$/;"	f
+_delete	libinotifytools/src/redblack.c	/^RB_ENTRY(_delete)(struct RB_ENTRY(node) **rootp, struct RB_ENTRY(node) *z)$/;"	f	file:
+_delete_fix	libinotifytools/src/redblack.c	/^RB_ENTRY(_delete_fix)(struct RB_ENTRY(node) **rootp, struct RB_ENTRY(node) *x)$/;"	f	file:
+_destroy	libinotifytools/src/redblack.c	/^RB_ENTRY(_destroy)(struct RB_ENTRY(node) *x)$/;"	f	file:
+_free	libinotifytools/src/redblack.c	/^RB_ENTRY(_free)(struct RB_ENTRY(node) *x)$/;"	f	file:
+_free	libinotifytools/src/redblack.c	/^static void RB_ENTRY(_free)(struct RB_ENTRY(node) *x) {free(x);}$/;"	f	file:
+_inotifytools_H	libinotifytools/src/inotifytools/inotifytools.h	2;"	d
+_left_rotate	libinotifytools/src/redblack.c	/^RB_ENTRY(_left_rotate)(struct RB_ENTRY(node) **rootp, struct RB_ENTRY(node) *x)$/;"	f	file:
+_niceassert	libinotifytools/src/inotifytools.c	/^void _niceassert( long cond, int line, char const * file, char const * condstr,$/;"	f
+_niceassert	src/common.c	/^void _niceassert( long cond, int line, char const * file, char const * condstr,$/;"	f
+_openlist	libinotifytools/src/redblack.c	/^RB_ENTRY(_openlist)(const struct RB_ENTRY(node) *rootp)$/;"	f	file:
+_right_rotate	libinotifytools/src/redblack.c	/^RB_ENTRY(_right_rotate)(struct RB_ENTRY(node) **rootp, struct RB_ENTRY(node) *y)$/;"	f	file:
+_verify	libinotifytools/src/test.c	/^int _verify( int cond, char const * teststr, char const * file, int line, char const *func ) {$/;"	f
+_walk	libinotifytools/src/redblack.c	/^RB_ENTRY(_walk)(const struct RB_ENTRY(node) *x, void (*action)(const RB_ENTRY(data_t) *, const VISIT, const int, void *), void *arg, int level)$/;"	f	file:
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	libinotifytools/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	libinotifytools/src/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	libinotifytools/src/inotifytools/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	man/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	src/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	libinotifytools/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	libinotifytools/src/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	libinotifytools/src/inotifytools/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	man/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	src/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_F77	Makefile	/^ac_ct_F77 = $/;"	m
+ac_ct_F77	libinotifytools/Makefile	/^ac_ct_F77 = $/;"	m
+ac_ct_F77	libinotifytools/src/Makefile	/^ac_ct_F77 = $/;"	m
+ac_ct_F77	libinotifytools/src/inotifytools/Makefile	/^ac_ct_F77 = $/;"	m
+ac_ct_F77	man/Makefile	/^ac_ct_F77 = $/;"	m
+ac_ct_F77	src/Makefile	/^ac_ct_F77 = $/;"	m
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	libinotifytools/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	libinotifytools/src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	libinotifytools/src/inotifytools/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	man/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__aclocal_m4_deps	src/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	libinotifytools/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	libinotifytools/src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	libinotifytools/src/inotifytools/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	man/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	src/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	libinotifytools/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	libinotifytools/src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	libinotifytools/src/inotifytools/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	man/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	src/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	libinotifytools/src/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	src/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__fastdepCC_FALSE	Makefile	/^am__fastdepCC_FALSE = #$/;"	m
+am__fastdepCC_FALSE	libinotifytools/Makefile	/^am__fastdepCC_FALSE = #$/;"	m
+am__fastdepCC_FALSE	libinotifytools/src/Makefile	/^am__fastdepCC_FALSE = #$/;"	m
+am__fastdepCC_FALSE	libinotifytools/src/inotifytools/Makefile	/^am__fastdepCC_FALSE = #$/;"	m
+am__fastdepCC_FALSE	man/Makefile	/^am__fastdepCC_FALSE = #$/;"	m
+am__fastdepCC_FALSE	src/Makefile	/^am__fastdepCC_FALSE = #$/;"	m
+am__fastdepCC_TRUE	Makefile	/^am__fastdepCC_TRUE = $/;"	m
+am__fastdepCC_TRUE	libinotifytools/Makefile	/^am__fastdepCC_TRUE = $/;"	m
+am__fastdepCC_TRUE	libinotifytools/src/Makefile	/^am__fastdepCC_TRUE = $/;"	m
+am__fastdepCC_TRUE	libinotifytools/src/inotifytools/Makefile	/^am__fastdepCC_TRUE = $/;"	m
+am__fastdepCC_TRUE	man/Makefile	/^am__fastdepCC_TRUE = $/;"	m
+am__fastdepCC_TRUE	src/Makefile	/^am__fastdepCC_TRUE = $/;"	m
+am__fastdepCXX_FALSE	Makefile	/^am__fastdepCXX_FALSE = #$/;"	m
+am__fastdepCXX_FALSE	libinotifytools/Makefile	/^am__fastdepCXX_FALSE = #$/;"	m
+am__fastdepCXX_FALSE	libinotifytools/src/Makefile	/^am__fastdepCXX_FALSE = #$/;"	m
+am__fastdepCXX_FALSE	libinotifytools/src/inotifytools/Makefile	/^am__fastdepCXX_FALSE = #$/;"	m
+am__fastdepCXX_FALSE	man/Makefile	/^am__fastdepCXX_FALSE = #$/;"	m
+am__fastdepCXX_FALSE	src/Makefile	/^am__fastdepCXX_FALSE = #$/;"	m
+am__fastdepCXX_TRUE	Makefile	/^am__fastdepCXX_TRUE = $/;"	m
+am__fastdepCXX_TRUE	libinotifytools/Makefile	/^am__fastdepCXX_TRUE = $/;"	m
+am__fastdepCXX_TRUE	libinotifytools/src/Makefile	/^am__fastdepCXX_TRUE = $/;"	m
+am__fastdepCXX_TRUE	libinotifytools/src/inotifytools/Makefile	/^am__fastdepCXX_TRUE = $/;"	m
+am__fastdepCXX_TRUE	man/Makefile	/^am__fastdepCXX_TRUE = $/;"	m
+am__fastdepCXX_TRUE	src/Makefile	/^am__fastdepCXX_TRUE = $/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__include	libinotifytools/Makefile	/^am__include = include$/;"	m
+am__include	libinotifytools/src/Makefile	/^am__include = include$/;"	m
+am__include	libinotifytools/src/inotifytools/Makefile	/^am__include = include$/;"	m
+am__include	man/Makefile	/^am__include = include$/;"	m
+am__include	src/Makefile	/^am__include = include$/;"	m
+am__installdirs	libinotifytools/src/Makefile	/^am__installdirs = "$(DESTDIR)$(libdir)" "$(DESTDIR)$(docdir)" \\$/;"	m
+am__installdirs	man/Makefile	/^am__installdirs = "$(DESTDIR)$(man1dir)"$/;"	m
+am__installdirs	src/Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	libinotifytools/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	libinotifytools/src/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	libinotifytools/src/inotifytools/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	man/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	src/Makefile	/^am__leading_dot = .$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__quote	libinotifytools/Makefile	/^am__quote = $/;"	m
+am__quote	libinotifytools/src/Makefile	/^am__quote = $/;"	m
+am__quote	libinotifytools/src/inotifytools/Makefile	/^am__quote = $/;"	m
+am__quote	man/Makefile	/^am__quote = $/;"	m
+am__quote	src/Makefile	/^am__quote = $/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	libinotifytools/src/Makefile	/^am__strip_dir = `echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	libinotifytools/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	libinotifytools/src/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	libinotifytools/src/inotifytools/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	man/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	src/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	libinotifytools/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	libinotifytools/src/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	libinotifytools/src/inotifytools/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	man/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	src/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__vpath_adj	libinotifytools/src/Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	libinotifytools/src/Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_inotifywait_OBJECTS	src/Makefile	/^am_inotifywait_OBJECTS = inotifywait.$(OBJEXT) common.$(OBJEXT)$/;"	m
+am_inotifywatch_OBJECTS	src/Makefile	/^am_inotifywatch_OBJECTS = inotifywatch.$(OBJEXT) common.$(OBJEXT)$/;"	m
+am_libinotifytools_la_OBJECTS	libinotifytools/src/Makefile	/^am_libinotifytools_la_OBJECTS = inotifytools.lo redblack.lo$/;"	m
+am_test_OBJECTS	libinotifytools/src/Makefile	/^am_test_OBJECTS = test.$(OBJEXT)$/;"	m
+as_func_failure	configure	/^as_func_failure () {$/;"	f
+as_func_ret_failure	configure	/^as_func_ret_failure () {$/;"	f
+as_func_ret_success	configure	/^as_func_ret_success () {$/;"	f
+as_func_success	configure	/^as_func_success () {$/;"	f
+assert	libinotifytools/src/redblack.c	32;"	d	file:
+basic_watch_info	libinotifytools/src/test.c	/^void basic_watch_info() {$/;"	f
+binPROGRAMS_INSTALL	src/Makefile	/^binPROGRAMS_INSTALL = $(INSTALL_PROGRAM)$/;"	m
+bin_PROGRAMS	src/Makefile	/^bin_PROGRAMS = inotifywait$(EXEEXT) inotifywatch$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	libinotifytools/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	libinotifytools/src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	libinotifytools/src/inotifytools/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	man/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	src/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	libinotifytools/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	libinotifytools/src/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	libinotifytools/src/inotifytools/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	man/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	src/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_alias	libinotifytools/Makefile	/^build_alias = $/;"	m
+build_alias	libinotifytools/src/Makefile	/^build_alias = $/;"	m
+build_alias	libinotifytools/src/inotifytools/Makefile	/^build_alias = $/;"	m
+build_alias	man/Makefile	/^build_alias = $/;"	m
+build_alias	src/Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_cpu	libinotifytools/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	libinotifytools/src/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	libinotifytools/src/inotifytools/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	man/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	src/Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_os	libinotifytools/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	libinotifytools/src/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	libinotifytools/src/inotifytools/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	man/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	src/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	libinotifytools/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	libinotifytools/src/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	libinotifytools/src/inotifytools/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	man/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	src/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+build_vendor	libinotifytools/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	libinotifytools/src/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	libinotifytools/src/inotifytools/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	man/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	src/Makefile	/^build_vendor = pc$/;"	m
+check_PROGRAMS	libinotifytools/src/Makefile	/^check_PROGRAMS = test$(EXEEXT)$/;"	m
+chrtostr	libinotifytools/src/inotifytools.c	/^char * chrtostr(char ch) {$/;"	f
+cleanup	libinotifytools/src/test.c	/^void cleanup() {$/;"	f
+cleanup_tree	libinotifytools/src/inotifytools.c	/^void cleanup_tree(const void *nodep,$/;"	f
+closelist	libinotifytools/src/redblack.c	/^RB_ENTRY(closelist)(RBLIST *rblistp)$/;"	f
+collect_stats	libinotifytools/src/inotifytools.c	/^static int collect_stats = 0;$/;"	v	file:
+compare	libinotifytools/src/test.c	26;"	d	file:
+construct_path_list	src/common.c	/^FileList construct_path_list( int argc, char ** argv, char const * filename ) {$/;"	f
+cookie	libinotifytools/src/inotifytools/inotify-nosys.h	/^	uint32_t		cookie;		\/* cookie to synchronize two events *\/$/;"	m	struct:inotify_event
+create_watch	libinotifytools/src/inotifytools.c	/^watch *create_watch(int wd, char *filename) {$/;"	f
+csv_escape	src/inotifywait.c	/^char * csv_escape( char * string ) {$/;"	f
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	libinotifytools/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	libinotifytools/src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	libinotifytools/src/inotifytools/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	man/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	src/Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	libinotifytools/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	libinotifytools/src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	libinotifytools/src/inotifytools/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	man/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	src/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+dc_install_base	Makefile	/^	dc_install_base=`$(am__cd) $(distdir)\/_inst && pwd | sed -e 's,^[^:\\\\\/]:[\\\\\/],\/,'` \\$/;"	m
+depcomp	libinotifytools/src/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	src/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+destroy	libinotifytools/src/redblack.c	/^RB_ENTRY(destroy)(struct RB_ENTRY(tree) *rbinfo)$/;"	f
+destroy_watch	libinotifytools/src/inotifytools.c	/^void destroy_watch(watch *w) {$/;"	f
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+docDATA_INSTALL	libinotifytools/src/Makefile	/^docDATA_INSTALL = $(INSTALL_DATA)$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	libinotifytools/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	libinotifytools/src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	libinotifytools/src/inotifytools/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	man/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	src/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+done	src/inotifywatch.c	/^static bool done;$/;"	v	file:
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	libinotifytools/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	libinotifytools/src/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	libinotifytools/src/inotifytools/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	man/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	src/Makefile	/^dvidir = ${docdir}$/;"	m
+empty_stats	libinotifytools/src/inotifytools.c	/^void empty_stats(const void *nodep,$/;"	f
+endorder	libinotifytools/src/redblack.h	/^  endorder,$/;"	e	enum:__anon2
+error	libinotifytools/src/inotifytools.c	/^static int error = 0;$/;"	v	file:
+event_compare	libinotifytools/src/inotifytools.c	/^int event_compare(const void *p1, const void *p2, const void *config)$/;"	f
+event_to_str	libinotifytools/src/test.c	/^void event_to_str() {$/;"	f
+event_to_str_sep	libinotifytools/src/test.c	/^void event_to_str_sep() {$/;"	f
+exclude_files	src/common.h	/^	char const ** exclude_files;$/;"	m	struct:__anon1
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	libinotifytools/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	libinotifytools/src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	libinotifytools/src/inotifytools/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	man/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	src/Makefile	/^exec_prefix = ${prefix}$/;"	m
+fail	libinotifytools/src/test.c	34;"	d	file:
+filename	libinotifytools/src/inotifytools_p.h	/^	char *filename;$/;"	m	struct:watch
+filename_compare	libinotifytools/src/inotifytools.c	/^int filename_compare(const void *d1, const void *d2, const void *config) {$/;"	f
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+get_num	libinotifytools/src/inotifytools.c	/^void get_num(const void *nodep,$/;"	f
+handle_impatient_user	src/inotifywatch.c	/^void handle_impatient_user( int signal __attribute__((unused)) ) {$/;"	f
+handle_signal	src/inotifywatch.c	/^void handle_signal( int signal __attribute__((unused)) ) {$/;"	f
+hit_access	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_access;$/;"	m	struct:watch
+hit_attrib	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_attrib;$/;"	m	struct:watch
+hit_close_nowrite	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_close_nowrite;$/;"	m	struct:watch
+hit_close_write	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_close_write;$/;"	m	struct:watch
+hit_create	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_create;$/;"	m	struct:watch
+hit_delete	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_delete;$/;"	m	struct:watch
+hit_delete_self	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_delete_self;$/;"	m	struct:watch
+hit_modify	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_modify;$/;"	m	struct:watch
+hit_move_self	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_move_self;$/;"	m	struct:watch
+hit_moved_from	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_moved_from;$/;"	m	struct:watch
+hit_moved_to	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_moved_to;$/;"	m	struct:watch
+hit_open	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_open;$/;"	m	struct:watch
+hit_total	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_total;$/;"	m	struct:watch
+hit_unmount	libinotifytools/src/inotifytools_p.h	/^	unsigned hit_unmount;$/;"	m	struct:watch
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	libinotifytools/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	libinotifytools/src/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	libinotifytools/src/inotifytools/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	man/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	src/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_alias	libinotifytools/Makefile	/^host_alias = $/;"	m
+host_alias	libinotifytools/src/Makefile	/^host_alias = $/;"	m
+host_alias	libinotifytools/src/inotifytools/Makefile	/^host_alias = $/;"	m
+host_alias	man/Makefile	/^host_alias = $/;"	m
+host_alias	src/Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_cpu	libinotifytools/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	libinotifytools/src/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	libinotifytools/src/inotifytools/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	man/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	src/Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_os	libinotifytools/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	libinotifytools/src/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	libinotifytools/src/inotifytools/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	man/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	src/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	libinotifytools/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	libinotifytools/src/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	libinotifytools/src/inotifytools/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	man/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	src/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+host_vendor	libinotifytools/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	libinotifytools/src/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	libinotifytools/src/inotifytools/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	man/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	src/Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	libinotifytools/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	libinotifytools/src/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	libinotifytools/src/inotifytools/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	man/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	src/Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	libinotifytools/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	libinotifytools/src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	libinotifytools/src/inotifytools/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	man/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	src/Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	libinotifytools/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	libinotifytools/src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	libinotifytools/src/inotifytools/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	man/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	src/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init	libinotifytools/src/inotifytools.c	/^static int init = 0;$/;"	v	file:
+inotify_add_watch	libinotifytools/src/inotifytools/inotify-nosys.h	/^static inline int inotify_add_watch (int fd, const char *name, uint32_t mask)$/;"	f
+inotify_event	libinotifytools/src/inotifytools/inotify-nosys.h	/^struct inotify_event {$/;"	s
+inotify_fd	libinotifytools/src/inotifytools.c	/^static int inotify_fd;$/;"	v	file:
+inotify_init	libinotifytools/src/inotifytools/inotify-nosys.h	/^static inline int inotify_init (void)$/;"	f
+inotify_rm_watch	libinotifytools/src/inotifytools/inotify-nosys.h	/^static inline int inotify_rm_watch (int fd, uint32_t wd)$/;"	f
+inotifytools_cleanup	libinotifytools/src/inotifytools.c	/^void inotifytools_cleanup() {$/;"	f
+inotifytools_error	libinotifytools/src/inotifytools.c	/^int inotifytools_error() {$/;"	f
+inotifytools_event_to_str	libinotifytools/src/inotifytools.c	/^char * inotifytools_event_to_str(int events) {$/;"	f
+inotifytools_event_to_str_sep	libinotifytools/src/inotifytools.c	/^char * inotifytools_event_to_str_sep(int events, char sep)$/;"	f
+inotifytools_filename_from_wd	libinotifytools/src/inotifytools.c	/^char * inotifytools_filename_from_wd( int wd ) {$/;"	f
+inotifytools_fprintf	libinotifytools/src/inotifytools.c	/^int inotifytools_fprintf( FILE* file, struct inotify_event* event, char* fmt ) {$/;"	f
+inotifytools_get_max_queued_events	libinotifytools/src/inotifytools.c	/^int inotifytools_get_max_queued_events() {$/;"	f
+inotifytools_get_max_user_instances	libinotifytools/src/inotifytools.c	/^int inotifytools_get_max_user_instances() {$/;"	f
+inotifytools_get_max_user_watches	libinotifytools/src/inotifytools.c	/^int inotifytools_get_max_user_watches() {$/;"	f
+inotifytools_get_num_watches	libinotifytools/src/inotifytools.c	/^int inotifytools_get_num_watches() {$/;"	f
+inotifytools_get_stat_by_filename	libinotifytools/src/inotifytools.c	/^int inotifytools_get_stat_by_filename( char const * filename,$/;"	f
+inotifytools_get_stat_by_wd	libinotifytools/src/inotifytools.c	/^int inotifytools_get_stat_by_wd( int wd, int event ) {$/;"	f
+inotifytools_get_stat_total	libinotifytools/src/inotifytools.c	/^int inotifytools_get_stat_total( int event ) {$/;"	f
+inotifytools_ignore_events_by_regex	libinotifytools/src/inotifytools.c	/^int inotifytools_ignore_events_by_regex( char const *pattern, int flags ) {$/;"	f
+inotifytools_initialize	libinotifytools/src/inotifytools.c	/^int inotifytools_initialize() {$/;"	f
+inotifytools_initialize_stats	libinotifytools/src/inotifytools.c	/^void inotifytools_initialize_stats() {$/;"	f
+inotifytools_next_event	libinotifytools/src/inotifytools.c	/^struct inotify_event * inotifytools_next_event( int timeout ) {$/;"	f
+inotifytools_next_events	libinotifytools/src/inotifytools.c	/^struct inotify_event * inotifytools_next_events( int timeout, int num_events ) {$/;"	f
+inotifytools_printf	libinotifytools/src/inotifytools.c	/^int inotifytools_printf( struct inotify_event* event, char* fmt ) {$/;"	f
+inotifytools_remove_watch_by_filename	libinotifytools/src/inotifytools.c	/^int inotifytools_remove_watch_by_filename( char const * filename ) {$/;"	f
+inotifytools_remove_watch_by_wd	libinotifytools/src/inotifytools.c	/^int inotifytools_remove_watch_by_wd( int wd ) {$/;"	f
+inotifytools_replace_filename	libinotifytools/src/inotifytools.c	/^void inotifytools_replace_filename( char const * oldname,$/;"	f
+inotifytools_set_filename_by_filename	libinotifytools/src/inotifytools.c	/^void inotifytools_set_filename_by_filename( char const * oldname,$/;"	f
+inotifytools_set_filename_by_wd	libinotifytools/src/inotifytools.c	/^void inotifytools_set_filename_by_wd( int wd, char const * filename ) {$/;"	f
+inotifytools_set_printf_timefmt	libinotifytools/src/inotifytools.c	/^void inotifytools_set_printf_timefmt( char * fmt ) {$/;"	f
+inotifytools_snprintf	libinotifytools/src/inotifytools.c	/^int inotifytools_snprintf( char * out, int size,$/;"	f
+inotifytools_sprintf	libinotifytools/src/inotifytools.c	/^int inotifytools_sprintf( char * out, struct inotify_event* event, char* fmt ) {$/;"	f
+inotifytools_str_to_event	libinotifytools/src/inotifytools.c	/^int inotifytools_str_to_event(char const * event) {$/;"	f
+inotifytools_str_to_event_sep	libinotifytools/src/inotifytools.c	/^int inotifytools_str_to_event_sep(char const * event, char sep) {$/;"	f
+inotifytools_watch_file	libinotifytools/src/inotifytools.c	/^int inotifytools_watch_file( char const * filename, int events ) {$/;"	f
+inotifytools_watch_files	libinotifytools/src/inotifytools.c	/^int inotifytools_watch_files( char const * filenames[], int events ) {$/;"	f
+inotifytools_watch_recursively	libinotifytools/src/inotifytools.c	/^int inotifytools_watch_recursively( char const * path, int events ) {$/;"	f
+inotifytools_watch_recursively_with_exclude	libinotifytools/src/inotifytools.c	/^int inotifytools_watch_recursively_with_exclude( char const * path, int events,$/;"	f
+inotifytools_wd_from_filename	libinotifytools/src/inotifytools.c	/^int inotifytools_wd_from_filename( char const * filename ) {$/;"	f
+inotifytools_wd_sorted_by_event	libinotifytools/src/inotifytools.c	/^struct rbtree *inotifytools_wd_sorted_by_event(int sort_event)$/;"	f
+inotifywait_DEPENDENCIES	src/Makefile	/^inotifywait_DEPENDENCIES = ..\/libinotifytools\/src\/libinotifytools.la$/;"	m
+inotifywait_LDADD	src/Makefile	/^inotifywait_LDADD = $(LDADD)$/;"	m
+inotifywait_OBJECTS	src/Makefile	/^inotifywait_OBJECTS = $(am_inotifywait_OBJECTS)$/;"	m
+inotifywait_SOURCES	src/Makefile	/^inotifywait_SOURCES = inotifywait.c common.c common.h$/;"	m
+inotifywatch_DEPENDENCIES	src/Makefile	/^inotifywatch_DEPENDENCIES = ..\/libinotifytools\/src\/libinotifytools.la$/;"	m
+inotifywatch_LDADD	src/Makefile	/^inotifywatch_LDADD = $(LDADD)$/;"	m
+inotifywatch_OBJECTS	src/Makefile	/^inotifywatch_OBJECTS = $(am_inotifywatch_OBJECTS)$/;"	m
+inotifywatch_SOURCES	src/Makefile	/^inotifywatch_SOURCES = inotifywatch.c common.c common.h$/;"	m
+install_sh	Makefile	/^install_sh = \/root\/file_syn_auto\/inotify-tools-3.13\/install-sh$/;"	m
+install_sh	libinotifytools/Makefile	/^install_sh = \/root\/file_syn_auto\/inotify-tools-3.13\/install-sh$/;"	m
+install_sh	libinotifytools/src/Makefile	/^install_sh = \/root\/file_syn_auto\/inotify-tools-3.13\/install-sh$/;"	m
+install_sh	libinotifytools/src/inotifytools/Makefile	/^install_sh = \/root\/file_syn_auto\/inotify-tools-3.13\/install-sh$/;"	m
+install_sh	man/Makefile	/^install_sh = \/root\/file_syn_auto\/inotify-tools-3.13\/install-sh$/;"	m
+install_sh	src/Makefile	/^install_sh = \/root\/file_syn_auto\/inotify-tools-3.13\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	libinotifytools/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	libinotifytools/src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	libinotifytools/src/inotifytools/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	man/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	libinotifytools/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	libinotifytools/src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	libinotifytools/src/inotifytools/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	man/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	src/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	libinotifytools/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	libinotifytools/src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	libinotifytools/src/inotifytools/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	man/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	src/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+isdir	libinotifytools/src/inotifytools.c	/^int isdir( char const * path ) {$/;"	f
+isdir	src/common.c	/^int isdir( char const * path ) {$/;"	f
+leaf	libinotifytools/src/redblack.h	/^  leaf$/;"	e	enum:__anon2
+len	libinotifytools/src/inotifytools/inotify-nosys.h	/^	uint32_t		len;		\/* length (including nulls) of name *\/$/;"	m	struct:inotify_event
+libLTLIBRARIES_INSTALL	libinotifytools/src/Makefile	/^libLTLIBRARIES_INSTALL = $(INSTALL)$/;"	m
+lib_LTLIBRARIES	libinotifytools/src/Makefile	/^lib_LTLIBRARIES = libinotifytools.la$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	libinotifytools/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	libinotifytools/src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	libinotifytools/src/inotifytools/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	man/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	src/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	libinotifytools/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	libinotifytools/src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	libinotifytools/src/inotifytools/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	man/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	src/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libinotifytools_la_LDFLAGS	libinotifytools/src/Makefile	/^libinotifytools_la_LDFLAGS = -version-info 4:1:4$/;"	m
+libinotifytools_la_LIBADD	libinotifytools/src/Makefile	/^libinotifytools_la_LIBADD =$/;"	m
+libinotifytools_la_OBJECTS	libinotifytools/src/Makefile	/^libinotifytools_la_OBJECTS = $(am_libinotifytools_la_OBJECTS)$/;"	m
+libinotifytools_la_SOURCES	libinotifytools/src/Makefile	/^libinotifytools_la_SOURCES = inotifytools.c inotifytools_p.h redblack.c redblack.h$/;"	m
+list	Makefile	/^	list='$(DIST_SUBDIRS)'; for subdir in $$list; do \\$/;"	m
+list	libinotifytools/Makefile	/^	list='$(DIST_SUBDIRS)'; for subdir in $$list; do \\$/;"	m
+list	libinotifytools/src/Makefile	/^	list='$(DIST_SUBDIRS)'; for subdir in $$list; do \\$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	libinotifytools/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	libinotifytools/src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	libinotifytools/src/inotifytools/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	man/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	src/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	libinotifytools/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	libinotifytools/src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	libinotifytools/src/inotifytools/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	man/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	src/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	libinotifytools/src/example.c	/^int main() {$/;"	f
+main	libinotifytools/src/test.c	/^int main() {$/;"	f
+main	src/inotifywait.c	/^int main(int argc, char ** argv)$/;"	f
+main	src/inotifywatch.c	/^int main(int argc, char ** argv)$/;"	f
+man1dir	man/Makefile	/^man1dir = $(mandir)\/man1$/;"	m
+man_MANS	man/Makefile	/^man_MANS = inotifywait.1 inotifywatch.1$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	libinotifytools/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	libinotifytools/src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	libinotifytools/src/inotifytools/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	man/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	src/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mask	libinotifytools/src/inotifytools/inotify-nosys.h	/^	uint32_t		mask;		\/* watch mask *\/$/;"	m	struct:inotify_event
+mkdir_p	Makefile	/^mkdir_p = mkdir -p --$/;"	m
+mkdir_p	libinotifytools/Makefile	/^mkdir_p = mkdir -p --$/;"	m
+mkdir_p	libinotifytools/src/Makefile	/^mkdir_p = mkdir -p --$/;"	m
+mkdir_p	libinotifytools/src/inotifytools/Makefile	/^mkdir_p = mkdir -p --$/;"	m
+mkdir_p	man/Makefile	/^mkdir_p = mkdir -p --$/;"	m
+mkdir_p	src/Makefile	/^mkdir_p = mkdir -p --$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	libinotifytools/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	libinotifytools/src/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	libinotifytools/src/inotifytools/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	man/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	src/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+nasprintf	libinotifytools/src/inotifytools.c	177;"	d	file:
+nasprintf	src/inotifywait.c	34;"	d	file:
+nasprintf	src/inotifywatch.c	39;"	d	file:
+niceassert	libinotifytools/src/inotifytools.c	174;"	d	file:
+niceassert	src/common.h	12;"	d
+nobase_includeHEADERS_INSTALL	libinotifytools/src/Makefile	/^nobase_includeHEADERS_INSTALL = $(install_sh_DATA)$/;"	m
+nobase_include_HEADERS	libinotifytools/src/Makefile	/^nobase_include_HEADERS = inotifytools\/inotifytools.h inotifytools\/inotify-nosys.h inotifytools\/inotify.h$/;"	m
+nodecolour	libinotifytools/src/redblack.c	/^enum nodecolour { BLACK, RED };$/;"	g	file:
+num_access	libinotifytools/src/inotifytools.c	/^static unsigned  num_access;$/;"	v	file:
+num_attrib	libinotifytools/src/inotifytools.c	/^static unsigned  num_attrib;$/;"	v	file:
+num_close_nowrite	libinotifytools/src/inotifytools.c	/^static unsigned  num_close_nowrite;$/;"	v	file:
+num_close_write	libinotifytools/src/inotifytools.c	/^static unsigned  num_close_write;$/;"	v	file:
+num_create	libinotifytools/src/inotifytools.c	/^static unsigned  num_create;$/;"	v	file:
+num_delete	libinotifytools/src/inotifytools.c	/^static unsigned  num_delete;$/;"	v	file:
+num_delete_self	libinotifytools/src/inotifytools.c	/^static unsigned  num_delete_self;$/;"	v	file:
+num_modify	libinotifytools/src/inotifytools.c	/^static unsigned  num_modify;$/;"	v	file:
+num_move_self	libinotifytools/src/inotifytools.c	/^static unsigned  num_move_self;$/;"	v	file:
+num_moved_from	libinotifytools/src/inotifytools.c	/^static unsigned  num_moved_from;$/;"	v	file:
+num_moved_to	libinotifytools/src/inotifytools.c	/^static unsigned  num_moved_to;$/;"	v	file:
+num_open	libinotifytools/src/inotifytools.c	/^static unsigned  num_open;$/;"	v	file:
+num_total	libinotifytools/src/inotifytools.c	/^static unsigned  num_total;$/;"	v	file:
+num_unmount	libinotifytools/src/inotifytools.c	/^static unsigned  num_unmount;$/;"	v	file:
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	libinotifytools/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	libinotifytools/src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	libinotifytools/src/inotifytools/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	man/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	src/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+onestr_to_event	libinotifytools/src/inotifytools.c	/^int onestr_to_event(char const * event)$/;"	f
+openlist	libinotifytools/src/redblack.c	/^RB_ENTRY(openlist)(const struct RB_ENTRY(tree) *rbinfo)$/;"	f
+output_event_csv	src/inotifywait.c	/^void output_event_csv( struct inotify_event * event ) {$/;"	f
+parse_opts	src/inotifywait.c	/^bool parse_opts($/;"	f
+parse_opts	src/inotifywatch.c	/^bool parse_opts($/;"	f
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	libinotifytools/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	libinotifytools/src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	libinotifytools/src/inotifytools/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	man/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	src/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/inotify-tools$/;"	m
+pkgdatadir	libinotifytools/Makefile	/^pkgdatadir = $(datadir)\/inotify-tools$/;"	m
+pkgdatadir	libinotifytools/src/Makefile	/^pkgdatadir = $(datadir)\/inotify-tools$/;"	m
+pkgdatadir	libinotifytools/src/inotifytools/Makefile	/^pkgdatadir = $(datadir)\/inotify-tools$/;"	m
+pkgdatadir	man/Makefile	/^pkgdatadir = $(datadir)\/inotify-tools$/;"	m
+pkgdatadir	src/Makefile	/^pkgdatadir = $(datadir)\/inotify-tools$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/inotify-tools$/;"	m
+pkgincludedir	libinotifytools/Makefile	/^pkgincludedir = $(includedir)\/inotify-tools$/;"	m
+pkgincludedir	libinotifytools/src/Makefile	/^pkgincludedir = $(includedir)\/inotify-tools$/;"	m
+pkgincludedir	libinotifytools/src/inotifytools/Makefile	/^pkgincludedir = $(includedir)\/inotify-tools$/;"	m
+pkgincludedir	man/Makefile	/^pkgincludedir = $(includedir)\/inotify-tools$/;"	m
+pkgincludedir	src/Makefile	/^pkgincludedir = $(includedir)\/inotify-tools$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/inotify-tools$/;"	m
+pkglibdir	libinotifytools/Makefile	/^pkglibdir = $(libdir)\/inotify-tools$/;"	m
+pkglibdir	libinotifytools/src/Makefile	/^pkglibdir = $(libdir)\/inotify-tools$/;"	m
+pkglibdir	libinotifytools/src/inotifytools/Makefile	/^pkglibdir = $(libdir)\/inotify-tools$/;"	m
+pkglibdir	man/Makefile	/^pkglibdir = $(libdir)\/inotify-tools$/;"	m
+pkglibdir	src/Makefile	/^pkglibdir = $(libdir)\/inotify-tools$/;"	m
+postorder	libinotifytools/src/redblack.h	/^  postorder,$/;"	e	enum:__anon2
+prefix	Makefile	/^prefix = \/usr$/;"	m
+prefix	libinotifytools/Makefile	/^prefix = \/usr$/;"	m
+prefix	libinotifytools/src/Makefile	/^prefix = \/usr$/;"	m
+prefix	libinotifytools/src/inotifytools/Makefile	/^prefix = \/usr$/;"	m
+prefix	man/Makefile	/^prefix = \/usr$/;"	m
+prefix	src/Makefile	/^prefix = \/usr$/;"	m
+preorder	libinotifytools/src/redblack.h	/^  preorder,$/;"	e	enum:__anon2
+print_event_descriptions	src/common.c	/^void print_event_descriptions() {$/;"	f
+print_help	src/inotifywait.c	/^void print_help()$/;"	f
+print_help	src/inotifywatch.c	/^void print_help()$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	libinotifytools/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	libinotifytools/src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	libinotifytools/src/inotifytools/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	man/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	src/Makefile	/^program_transform_name = s,x,x,$/;"	m
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+psdir	libinotifytools/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	libinotifytools/src/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	libinotifytools/src/inotifytools/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	man/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	src/Makefile	/^psdir = ${docdir}$/;"	m
+rb_closelist	libinotifytools/src/redblack.c	/^rb_closelist(RBLIST *rblistp)$/;"	f	file:
+rbdata_t	libinotifytools/src/redblack.h	42;"	d
+rbmax	libinotifytools/src/redblack.h	133;"	d
+rbmin	libinotifytools/src/redblack.h	132;"	d
+rcsid	libinotifytools/src/redblack.c	/^static char rcsid[]="$Id: redblack.c,v 1.9 2003\/10\/24 01:31:21 damo Exp $";$/;"	v	file:
+read_num_from_file	libinotifytools/src/inotifytools.c	/^int read_num_from_file( char * filename, int * num ) {$/;"	f
+record_stats	libinotifytools/src/inotifytools.c	/^void record_stats( struct inotify_event const * event ) {$/;"	f
+regex	libinotifytools/src/inotifytools.c	/^static regex_t* regex = 0;$/;"	v	file:
+remove_inotify_watch	libinotifytools/src/inotifytools.c	/^int remove_inotify_watch(watch *w) {$/;"	f
+replace_filename	libinotifytools/src/inotifytools.c	/^void replace_filename(const void *nodep,$/;"	f
+resize_if_necessary	src/common.c	18;"	d	file:
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	libinotifytools/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	libinotifytools/src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	libinotifytools/src/inotifytools/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	man/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	src/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	libinotifytools/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	libinotifytools/src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	libinotifytools/src/inotifytools/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	man/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	src/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+srcdir	libinotifytools/Makefile	/^srcdir = .$/;"	m
+srcdir	libinotifytools/src/Makefile	/^srcdir = .$/;"	m
+srcdir	libinotifytools/src/inotifytools/Makefile	/^srcdir = .$/;"	m
+srcdir	man/Makefile	/^srcdir = .$/;"	m
+srcdir	src/Makefile	/^srcdir = .$/;"	m
+stat_ptr	libinotifytools/src/inotifytools.c	/^int *stat_ptr(watch *w, int event)$/;"	f
+str_to_event	libinotifytools/src/test.c	/^void str_to_event() {$/;"	f
+str_to_event_sep	libinotifytools/src/test.c	/^void str_to_event_sep() {$/;"	f
+subdir	Makefile	/^subdir = .$/;"	m
+subdir	libinotifytools/Makefile	/^subdir = libinotifytools$/;"	m
+subdir	libinotifytools/src/Makefile	/^subdir = libinotifytools\/src$/;"	m
+subdir	libinotifytools/src/inotifytools/Makefile	/^subdir = libinotifytools\/src\/inotifytools$/;"	m
+subdir	man/Makefile	/^subdir = man$/;"	m
+subdir	src/Makefile	/^subdir = src$/;"	m
+succeed	libinotifytools/src/test.c	28;"	d	file:
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	libinotifytools/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	libinotifytools/src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	libinotifytools/src/inotifytools/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	man/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	src/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | bzip2 -9 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+target_alias	libinotifytools/Makefile	/^target_alias = $/;"	m
+target_alias	libinotifytools/src/Makefile	/^target_alias = $/;"	m
+target_alias	libinotifytools/src/inotifytools/Makefile	/^target_alias = $/;"	m
+target_alias	man/Makefile	/^target_alias = $/;"	m
+target_alias	src/Makefile	/^target_alias = $/;"	m
+test_DEPENDENCIES	libinotifytools/src/Makefile	/^test_DEPENDENCIES = libinotifytools.la$/;"	m
+test_LDADD	libinotifytools/src/Makefile	/^test_LDADD = libinotifytools.la$/;"	m
+test_OBJECTS	libinotifytools/src/Makefile	/^test_OBJECTS = $(am_test_OBJECTS)$/;"	m
+test_SOURCES	libinotifytools/src/Makefile	/^test_SOURCES = test.c$/;"	m
+tests_failed	libinotifytools/src/test.c	/^static int tests_failed;$/;"	v	file:
+tests_succeeded	libinotifytools/src/test.c	/^static int tests_succeeded;$/;"	v	file:
+timefmt	libinotifytools/src/inotifytools.c	/^static char* timefmt = 0;$/;"	v	file:
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_builddir	libinotifytools/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	libinotifytools/src/Makefile	/^top_builddir = ..\/..$/;"	m
+top_builddir	libinotifytools/src/inotifytools/Makefile	/^top_builddir = ..\/..\/..$/;"	m
+top_builddir	man/Makefile	/^top_builddir = ..$/;"	m
+top_builddir	src/Makefile	/^top_builddir = ..$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+top_srcdir	libinotifytools/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	libinotifytools/src/Makefile	/^top_srcdir = ..\/..$/;"	m
+top_srcdir	libinotifytools/src/inotifytools/Makefile	/^top_srcdir = ..\/..\/..$/;"	m
+top_srcdir	man/Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	src/Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	libinotifytools/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	libinotifytools/src/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	libinotifytools/src/inotifytools/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	man/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	src/Makefile	/^transform = $(program_transform_name)$/;"	m
+tree_filename	libinotifytools/src/inotifytools.c	/^struct rbtree *tree_filename = 0;$/;"	v	typeref:struct:rbtree
+tree_wd	libinotifytools/src/inotifytools.c	/^struct rbtree *tree_wd = 0;$/;"	v	typeref:struct:rbtree
+tst_inotifytools_snprintf	libinotifytools/src/test.c	/^void tst_inotifytools_snprintf() {$/;"	f
+validate_format	src/inotifywait.c	/^void validate_format( char * fmt ) {$/;"	f
+verify	libinotifytools/src/test.c	24;"	d	file:
+verify2	libinotifytools/src/test.c	25;"	d	file:
+walk	libinotifytools/src/redblack.c	/^RB_ENTRY(walk)(const struct RB_ENTRY(tree) *rbinfo, void (*action)(const RB_ENTRY(data_t) *, const VISIT, const int, void *), void *arg)$/;"	f
+watch	libinotifytools/src/inotifytools_p.h	/^typedef struct watch {$/;"	s
+watch	libinotifytools/src/inotifytools_p.h	/^} watch;$/;"	t	typeref:struct:watch
+watch_files	src/common.h	/^	char const ** watch_files;$/;"	m	struct:__anon1
+watch_from_filename	libinotifytools/src/inotifytools.c	/^watch *watch_from_filename( char const *filename ) {$/;"	f
+watch_from_wd	libinotifytools/src/inotifytools.c	/^watch *watch_from_wd( int wd ) {$/;"	f
+watch_limit	libinotifytools/src/test.c	/^void watch_limit() {$/;"	f
+wd	libinotifytools/src/inotifytools/inotify-nosys.h	/^	int		wd;		\/* watch descriptor *\/$/;"	m	struct:inotify_event
+wd	libinotifytools/src/inotifytools_p.h	/^	int wd;$/;"	m	struct:watch
+wd_compare	libinotifytools/src/inotifytools.c	/^int wd_compare(const void *d1, const void *d2, const void *config) {$/;"	f

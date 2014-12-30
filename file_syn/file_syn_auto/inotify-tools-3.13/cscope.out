@@ -1,0 +1,147 @@
+cscope 15 $HOME/file_syn_auto/inotify-tools-3.13               0000000844
+	@config.h
+
+5 
+	#HAVE_DLFCN_H
+ 1
+
+	)
+
+8 
+	#HAVE_INTTYPES_H
+ 1
+
+	)
+
+11 
+	#HAVE_MCHECK_H
+ 1
+
+	)
+
+14 
+	#HAVE_MEMORY_H
+ 1
+
+	)
+
+17 
+	#HAVE_STDINT_H
+ 1
+
+	)
+
+20 
+	#HAVE_STDLIB_H
+ 1
+
+	)
+
+23 
+	#HAVE_STRINGS_H
+ 1
+
+	)
+
+26 
+	#HAVE_STRING_H
+ 1
+
+	)
+
+29 
+	#HAVE_SYS_INOTIFY_H
+ 1
+
+	)
+
+32 
+	#HAVE_SYS_STAT_H
+ 1
+
+	)
+
+35 
+	#HAVE_SYS_TYPES_H
+ 1
+
+	)
+
+38 
+	#HAVE_UNISTD_H
+ 1
+
+	)
+
+41 
+	#PACKAGE
+ "šÙify-toÞs"
+
+	)
+
+44 
+	#PACKAGE_BUGREPORT
+ "rohª@mcgov”n.id.au"
+
+	)
+
+47 
+	#PACKAGE_NAME
+ "šÙify-toÞs"
+
+	)
+
+50 
+	#PACKAGE_STRING
+ "šÙify-toÞ 3.13"
+
+	)
+
+53 
+	#PACKAGE_TARNAME
+ "šÙify-toÞs"
+
+	)
+
+56 
+	#PACKAGE_VERSION
+ "3.13"
+
+	)
+
+59 
+	#STDC_HEADERS
+ 1
+
+	)
+
+62 
+	#SYS_INOTIFY_H_EXISTS_AND_WORKS
+ 1
+
+	)
+
+65 
+	#VERSION
+ "3.13"
+
+	)
+
+68 
+	#_GNU_SOURCE
+
+
+	)
+
+75 #iâdeà
+__ýlu¥lus
+
+
+	@
+1
+.
+1
+/usr/include
+1
+9
+config.h

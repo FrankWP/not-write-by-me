@@ -1,0 +1,171 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFER_SIZE	cli_file.c	9;"	d	file:
+BUFFER_SIZE	mod.c	10;"	d	file:
+BUFFER_SIZE	ser_file.c	10;"	d	file:
+BUFFER_SIZE	xvcli_1.c	7;"	d	file:
+BUFFER_SIZE	xversion/xvcli_1.c	29;"	d	file:
+BUFFER_SIZE	xversion/xvcli_2.c	29;"	d	file:
+BUFFER_SIZE	xversion/xvser_1.c	10;"	d	file:
+BUFFER_SIZE	xversion/xvser_2.c	10;"	d	file:
+BUFFER_SIZE	xvser_1.c	4;"	d	file:
+ERR_EXIT	cli.c	12;"	d	file:
+ERR_EXIT	ser.c	11;"	d	file:
+F	md5.c	54;"	d	file:
+FF	md5.c	64;"	d	file:
+FILE_NAME_MAX_SIZE	cli_file.c	10;"	d	file:
+FILE_NAME_MAX_SIZE	mod.c	11;"	d	file:
+FILE_NAME_MAX_SIZE	ser_file.c	11;"	d	file:
+FILE_NAME_MAX_SIZE	xvcli_1.c	8;"	d	file:
+FILE_NAME_MAX_SIZE	xversion/xvcli_1.c	30;"	d	file:
+FILE_NAME_MAX_SIZE	xversion/xvcli_2.c	30;"	d	file:
+FILE_NAME_MAX_SIZE	xversion/xvser_1.c	11;"	d	file:
+FILE_NAME_MAX_SIZE	xversion/xvser_2.c	11;"	d	file:
+FILE_NAME_MAX_SIZE	xvser_1.c	5;"	d	file:
+G	md5.c	55;"	d	file:
+GG	md5.c	69;"	d	file:
+H	md5.c	56;"	d	file:
+HELLO_WORLD_SERVER_PORT	cli_file.c	8;"	d	file:
+HELLO_WORLD_SERVER_PORT	mod.c	8;"	d	file:
+HELLO_WORLD_SERVER_PORT	ser_file.c	8;"	d	file:
+HELLO_WORLD_SERVER_PORT	xvcli_1.c	6;"	d	file:
+HELLO_WORLD_SERVER_PORT	xversion/xvcli_1.c	28;"	d	file:
+HELLO_WORLD_SERVER_PORT	xversion/xvcli_2.c	28;"	d	file:
+HELLO_WORLD_SERVER_PORT	xversion/xvser_1.c	8;"	d	file:
+HELLO_WORLD_SERVER_PORT	xversion/xvser_2.c	8;"	d	file:
+HELLO_WORLD_SERVER_PORT	xvser_1.c	2;"	d	file:
+HH	md5.c	74;"	d	file:
+I	md5.c	57;"	d	file:
+II	md5.c	79;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	mod.c	9;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	ser_file.c	9;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	xversion/xvser_1.c	9;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	xversion/xvser_2.c	9;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	xvser_1.c	3;"	d	file:
+MD5Final	md5.c	/^void MD5Final (MD5_CTX *mdContext)$/;"	f
+MD5Init	md5.c	/^void MD5Init (MD5_CTX *mdContext)$/;"	f
+MD5Update	md5.c	/^void MD5Update (MD5_CTX *mdContext, unsigned char *inBuf, unsigned int inLen)$/;"	f
+MD5_CTX	md5.h	/^} MD5_CTX;$/;"	t	typeref:struct:__anon1
+MD5_file	test.c	/^char *MD5_file (char *path, int md5_len)$/;"	f
+MD5_file	xvser_1.c	/^char *MD5_file (char *path, int md5_len)$/;"	f
+PADDING	md5.c	/^static unsigned char PADDING[64] = {$/;"	v	file:
+ROTATE_LEFT	md5.c	60;"	d	file:
+S11	md5.c	175;"	d	file:
+S12	md5.c	176;"	d	file:
+S13	md5.c	177;"	d	file:
+S14	md5.c	178;"	d	file:
+S21	md5.c	197;"	d	file:
+S22	md5.c	198;"	d	file:
+S23	md5.c	199;"	d	file:
+S24	md5.c	200;"	d	file:
+S31	md5.c	219;"	d	file:
+S32	md5.c	220;"	d	file:
+S33	md5.c	221;"	d	file:
+S34	md5.c	222;"	d	file:
+S41	md5.c	241;"	d	file:
+S42	md5.c	242;"	d	file:
+S43	md5.c	243;"	d	file:
+S44	md5.c	244;"	d	file:
+Transform	md5.c	/^static void Transform (UINT4 *buf, UINT4 *in)$/;"	f	file:
+UINT4	md5.h	/^typedef unsigned long int UINT4;$/;"	t
+__conf_item	read_conf.h	/^typedef struct __conf_item$/;"	s
+__query_conf	read_conf.h	/^typedef struct __query_conf$/;"	s
+__sc	read_conf.c	/^struct sock_conf __sc;$/;"	v	typeref:struct:sock_conf
+_t_disbuf	display.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+_t_disbuf	xversion/xvcli_1.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+_t_disbuf	xversion/xvcli_2.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+_t_disbuf	xversion/xvser_1.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+_t_disbuf	xversion/xvser_2.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+buf	md5.h	/^	UINT4 buf[4];                                    \/* scratch buffer *\/$/;"	m	struct:__anon1
+cal_chksum	xversion/xvcli_2.c	/^unsigned short cal_chksum(unsigned short *addr,int len)$/;"	f
+cal_chksum	xversion/xvser_2.c	/^unsigned short cal_chksum(unsigned short *addr,int len)$/;"	f
+conf_item	read_conf.h	/^} conf_item;$/;"	t	typeref:struct:__conf_item
+deal_with_item_line	read_conf.c	/^static conf_item *deal_with_item_line(char *read_line, query_conf **p_conf_que, conf_item **p_item_tail)$/;"	f	file:
+deal_with_label_line	read_conf.c	/^static query_conf *deal_with_label_line(char *read_line, query_conf **p_conf_head, query_conf **p_conf_tail)$/;"	f	file:
+digest	md5.h	/^	unsigned char digest[16];     \/* actual digest after MD5Final call *\/$/;"	m	struct:__anon1
+dis_interpret	display.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+dis_interpret	xversion/xvcli_1.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+dis_interpret	xversion/xvcli_2.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+dis_interpret	xversion/xvser_1.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+dis_interpret	xversion/xvser_2.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+find_label	read_conf.c	/^query_conf *find_label(query_conf *p_query_conf, char *label_name)$/;"	f
+free_configuration	read_conf.c	/^void free_configuration(query_conf **pque)$/;"	f
+free_item	read_conf.c	/^void free_item(conf_item **item)$/;"	f
+get_value_from_label	read_conf.c	/^char *get_value_from_label(query_conf *que, char *item_name)$/;"	f
+i	md5.h	/^	UINT4 i[2];                   \/* number of _bits_ handled mod 2^64 *\/$/;"	m	struct:__anon1
+in	md5.h	/^	unsigned char in[64];                              \/* input buffer *\/$/;"	m	struct:__anon1
+inet_atoul	read_conf.c	/^unsigned int inet_atoul(const char * s)$/;"	f
+inet_ultoa	read_conf.c	/^char * inet_ultoa(unsigned int u, char * s)$/;"	f
+init_conf	xvcli_1.c	/^int init_conf()$/;"	f
+init_conf	xvser_1.c	/^int init_conf()$/;"	f
+init_sock	xvcli_1.c	/^int init_sock(unsigned int s_ip, unsigned short s_port)$/;"	f
+init_sock	xversion/xvcli_1.c	/^int init_sock()$/;"	f
+init_sock	xversion/xvcli_2.c	/^int init_sock()$/;"	f
+init_sock	xversion/xvser_1.c	/^int init_sock()$/;"	f
+init_sock	xversion/xvser_2.c	/^int init_sock()$/;"	f
+init_sock	xvser_1.c	/^int init_sock(unsigned int s_ip, unsigned short s_port)$/;"	f
+item_name	read_conf.h	/^    char *item_name;$/;"	m	struct:__conf_item
+item_next	read_conf.h	/^    struct __conf_item *item_next;$/;"	m	struct:__conf_item	typeref:struct:__conf_item::__conf_item
+item_value	read_conf.h	/^    char *item_value;$/;"	m	struct:__conf_item
+label_item	read_conf.h	/^    conf_item *label_item;$/;"	m	struct:__query_conf
+label_name	read_conf.h	/^    char *label_name;$/;"	m	struct:__query_conf
+label_next	read_conf.h	/^    struct __query_conf *label_next;$/;"	m	struct:__query_conf	typeref:struct:__query_conf::__query_conf
+line_from_buf	read_conf.c	/^char* line_from_buf(char *cursor, char *store, int storesz)$/;"	f
+load_configuration	read_conf.c	/^query_conf * load_configuration(const char *filepath)$/;"	f
+main	cli.c	/^int main(void)$/;"	f
+main	cli_file.c	/^int main(int argc, char **argv)  $/;"	f
+main	mod.c	/^int main(int argc, char **argv)  $/;"	f
+main	ser.c	/^int main(void)$/;"	f
+main	ser_file.c	/^int main(int argc, char **argv)  $/;"	f
+main	test.c	/^int main(int argc, char *argv[])$/;"	f
+main	xvcli_1.c	/^int main(int argc, char **argv)  $/;"	f
+main	xversion/xvcli_1.c	/^int main(int argc, char **argv)  $/;"	f
+main	xversion/xvcli_2.c	/^int main(int argc, char **argv)  $/;"	f
+main	xversion/xvser_1.c	/^int main(int argc, char **argv)  $/;"	f
+main	xversion/xvser_2.c	/^int main(int argc, char **argv)  $/;"	f
+main	xvser_1.c	/^int main(int argc, char **argv)  $/;"	f
+md5_src	xvser_1.c	/^char md5_src[33];$/;"	v
+move_conf	xvser_1.c	/^int move_conf(char *fsrc, char *fdst)$/;"	f
+par_args	xvcli_1.c	/^void par_args(int argc, char **argv)$/;"	f
+par_args	xversion/xvcli_1.c	/^void par_args(int argc, char **argv)$/;"	f
+par_args	xversion/xvcli_2.c	/^void par_args(int argc, char **argv)$/;"	f
+pars_filename	xvcli_1.c	/^void pars_filename(int argc, char **argv)$/;"	f
+pars_filename	xversion/xvcli_1.c	/^void pars_filename(int argc, char **argv)$/;"	f
+pars_filename	xversion/xvcli_2.c	/^void pars_filename(int argc, char **argv)$/;"	f
+pre_deal_with_line	read_conf.c	/^char *pre_deal_with_line(char *line)$/;"	f
+print_char	display.c	/^static void print_char(char ch)$/;"	f	file:
+print_char	xversion/xvcli_1.c	/^static void print_char(char ch)$/;"	f	file:
+print_char	xversion/xvcli_2.c	/^static void print_char(char ch)$/;"	f	file:
+print_char	xversion/xvser_1.c	/^static void print_char(char ch)$/;"	f	file:
+print_char	xversion/xvser_2.c	/^static void print_char(char ch)$/;"	f	file:
+query_conf	read_conf.h	/^} query_conf;$/;"	t	typeref:struct:__query_conf
+read_file	xvcli_1.c	/^int read_file(char* file_name)$/;"	f
+read_file	xversion/xvcli_1.c	/^int read_file(char* file_name)$/;"	f
+read_file	xversion/xvcli_2.c	/^int read_file(char* file_name)$/;"	f
+recv_data	xversion/xvser_1.c	/^int recv_data()$/;"	f
+recv_data	xversion/xvser_2.c	/^int recv_data()$/;"	f
+recv_data	xvser_1.c	/^int recv_data()$/;"	f
+s_ip	read_conf.h	/^	unsigned int s_ip;$/;"	m	struct:sock_conf
+s_port	read_conf.h	/^	unsigned short s_port;$/;"	m	struct:sock_conf
+sc	xvcli_1.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sc	xvser_1.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sconf_file	xvcli_1.c	/^const static char *sconf_file = "sock.conf";$/;"	v	file:
+sconf_file	xvser_1.c	/^const static char *sconf_file = "sock.conf";$/;"	v	file:
+send_data	xvcli_1.c	/^int send_data(char *send_buf, int send_len)$/;"	f
+send_data	xversion/xvcli_1.c	/^int send_data(char *send_buf, int send_len)$/;"	f
+send_data	xversion/xvcli_2.c	/^int send_data(char *send_buf, int send_len)$/;"	f
+sock_conf	read_conf.h	/^struct sock_conf$/;"	s
+std	Makefile	/^	gcc xvcli_1.c md5.c display.c read_conf.c -std=gnu99 -o cc$/;"	m
+t_disbuf	display.h	2;"	d
+t_disbuf	xversion/xvcli_1.c	49;"	d	file:
+t_disbuf	xversion/xvcli_2.c	49;"	d	file:
+t_disbuf	xversion/xvser_1.c	32;"	d	file:
+t_disbuf	xversion/xvser_2.c	57;"	d	file:
+trim	read_conf.c	/^char* trim(char *str)$/;"	f
+write_new_file	xversion/xvser_1.c	/^int write_new_file(char *file_buf, int file_len)$/;"	f
+write_new_file	xversion/xvser_2.c	/^int write_new_file(char *file_buf, int file_len)$/;"	f
+write_new_file	xvser_1.c	/^int write_new_file(char *file_buf, int file_len)$/;"	f

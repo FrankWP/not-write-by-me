@@ -1,0 +1,99 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFER_SIZE	mod.c	10;"	d	file:
+F	md5.c	54;"	d	file:
+FF	md5.c	64;"	d	file:
+FILE_NAME_MAX_SIZE	mod.c	11;"	d	file:
+FTW_D	analyze_file_types.c	23;"	d	file:
+FTW_F	analyze_file_types.c	22;"	d	file:
+FTW_ND	analyze_file_types.c	25;"	d	file:
+FTW_NS	analyze_file_types.c	24;"	d	file:
+G	md5.c	55;"	d	file:
+GG	md5.c	69;"	d	file:
+H	md5.c	56;"	d	file:
+HELLO_WORLD_SERVER_PORT	mod.c	8;"	d	file:
+HH	md5.c	74;"	d	file:
+I	md5.c	57;"	d	file:
+II	md5.c	79;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	mod.c	9;"	d	file:
+MD5Final	md5.c	/^void MD5Final (MD5_CTX *mdContext)$/;"	f
+MD5Init	md5.c	/^void MD5Init (MD5_CTX *mdContext)$/;"	f
+MD5Update	md5.c	/^void MD5Update (MD5_CTX *mdContext, unsigned char *inBuf, unsigned int inLen)$/;"	f
+MD5_CTX	md5.h	/^} MD5_CTX;$/;"	t	typeref:struct:__anon1
+MyFunc	analyze_file_types.c	/^typedef int MyFunc(const char *, const struct stat*, int);$/;"	t	file:
+PADDING	md5.c	/^static unsigned char PADDING[64] = {$/;"	v	file:
+ROTATE_LEFT	md5.c	60;"	d	file:
+S11	md5.c	175;"	d	file:
+S12	md5.c	176;"	d	file:
+S13	md5.c	177;"	d	file:
+S14	md5.c	178;"	d	file:
+S21	md5.c	197;"	d	file:
+S22	md5.c	198;"	d	file:
+S23	md5.c	199;"	d	file:
+S24	md5.c	200;"	d	file:
+S31	md5.c	219;"	d	file:
+S32	md5.c	220;"	d	file:
+S33	md5.c	221;"	d	file:
+S34	md5.c	222;"	d	file:
+S41	md5.c	241;"	d	file:
+S42	md5.c	242;"	d	file:
+S43	md5.c	243;"	d	file:
+S44	md5.c	244;"	d	file:
+Transform	md5.c	/^static void Transform (UINT4 *buf, UINT4 *in)$/;"	f	file:
+UINT4	md5.h	/^typedef unsigned long int UINT4;$/;"	t
+__conf_item	read_conf.h	/^typedef struct __conf_item$/;"	s
+__query_conf	read_conf.h	/^typedef struct __query_conf$/;"	s
+__sc	read_conf.c	/^struct sock_conf __sc;$/;"	v	typeref:struct:sock_conf
+_t_disbuf	display.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+blk_c	analyze_file_types.c	/^static long sock_c,lnk_c,reg_c,blk_c,dir_c,chr_c,fifo_c,total_c;    \/\/统计各种文件类型的数量$/;"	v	file:
+buf	md5.h	/^	UINT4 buf[4];                                    \/* scratch buffer *\/$/;"	m	struct:__anon1
+chr_c	analyze_file_types.c	/^static long sock_c,lnk_c,reg_c,blk_c,dir_c,chr_c,fifo_c,total_c;    \/\/统计各种文件类型的数量$/;"	v	file:
+conf_item	read_conf.h	/^} conf_item;$/;"	t	typeref:struct:__conf_item
+deal_all_label_value	read_conf.c	/^void deal_all_label_value(query_conf *que, char *item_name)$/;"	f
+deal_with_item_line	read_conf.c	/^static conf_item *deal_with_item_line(char *read_line, query_conf **p_conf_que, conf_item **p_item_tail)$/;"	f	file:
+deal_with_label_line	read_conf.c	/^static query_conf *deal_with_label_line(char *read_line, query_conf **p_conf_head, query_conf **p_conf_tail)$/;"	f	file:
+digest	md5.h	/^	unsigned char digest[16];     \/* actual digest after MD5Final call *\/$/;"	m	struct:__anon1
+dir_c	analyze_file_types.c	/^static long sock_c,lnk_c,reg_c,blk_c,dir_c,chr_c,fifo_c,total_c;    \/\/统计各种文件类型的数量$/;"	v	file:
+dis_interpret	display.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+dopath	analyze_file_types.c	/^static int dopath(MyFunc *pmyfunc)$/;"	f	file:
+fifo_c	analyze_file_types.c	/^static long sock_c,lnk_c,reg_c,blk_c,dir_c,chr_c,fifo_c,total_c;    \/\/统计各种文件类型的数量$/;"	v	file:
+find_label	read_conf.c	/^query_conf *find_label(query_conf *p_query_conf, char *label_name)$/;"	f
+free_configuration	read_conf.c	/^void free_configuration(query_conf **pque)$/;"	f
+free_item	read_conf.c	/^void free_item(conf_item **item)$/;"	f
+fullpath	analyze_file_types.c	/^static char *fullpath;    \/\/存放文件的名称的变量$/;"	v	file:
+get_value_from_label	read_conf.c	/^char *get_value_from_label(query_conf *que, char *item_name)$/;"	f
+i	md5.h	/^	UINT4 i[2];                   \/* number of _bits_ handled mod 2^64 *\/$/;"	m	struct:__anon1
+in	md5.h	/^	unsigned char in[64];                              \/* input buffer *\/$/;"	m	struct:__anon1
+inet_atoul	read_conf.c	/^unsigned int inet_atoul(const char * s)$/;"	f
+inet_ultoa	read_conf.c	/^char * inet_ultoa(unsigned int u, char * s)$/;"	f
+item_name	read_conf.h	/^    char *item_name;$/;"	m	struct:__conf_item
+item_next	read_conf.h	/^    struct __conf_item *item_next;$/;"	m	struct:__conf_item	typeref:struct:__conf_item::__conf_item
+item_value	read_conf.h	/^    char *item_value;$/;"	m	struct:__conf_item
+label_item	read_conf.h	/^    conf_item *label_item;$/;"	m	struct:__query_conf
+label_name	read_conf.h	/^    char *label_name;$/;"	m	struct:__query_conf
+label_next	read_conf.h	/^    struct __query_conf *label_next;$/;"	m	struct:__query_conf	typeref:struct:__query_conf::__query_conf
+line_from_buf	read_conf.c	/^char* line_from_buf(char *cursor, char *store, int storesz)$/;"	f
+lnk_c	analyze_file_types.c	/^static long sock_c,lnk_c,reg_c,blk_c,dir_c,chr_c,fifo_c,total_c;    \/\/统计各种文件类型的数量$/;"	v	file:
+load_configuration	read_conf.c	/^query_conf * load_configuration(const char *filepath)$/;"	f
+main	analyze_file_types.c	/^int main(int argc,char *argv[])$/;"	f
+main	mod.c	/^int main(int argc, char **argv)  $/;"	f
+main	read_conf.c	/^int main()$/;"	f
+myftw	analyze_file_types.c	/^static int myftw(const char* pathname, MyFunc *pmyfunc)$/;"	f	file:
+myfunc	analyze_file_types.c	/^static MyFunc myfunc;        \/\/定义处理文件的函数$/;"	v	file:
+myfunc	analyze_file_types.c	/^static int myfunc(const char * pathname,const struct stat * statptr,int type)$/;"	f	file:
+pre_deal_with_line	read_conf.c	/^char *pre_deal_with_line(char *line)$/;"	f
+print_char	display.c	/^static void print_char(char ch)$/;"	f	file:
+query_conf	read_conf.h	/^} query_conf;$/;"	t	typeref:struct:__query_conf
+reg_c	analyze_file_types.c	/^static long sock_c,lnk_c,reg_c,blk_c,dir_c,chr_c,fifo_c,total_c;    \/\/统计各种文件类型的数量$/;"	v	file:
+s_ip	read_conf.h	/^	unsigned int s_ip;$/;"	m	struct:sock_conf
+s_port	read_conf.h	/^	unsigned short s_port;$/;"	m	struct:sock_conf
+sock_c	analyze_file_types.c	/^static long sock_c,lnk_c,reg_c,blk_c,dir_c,chr_c,fifo_c,total_c;    \/\/统计各种文件类型的数量$/;"	v	file:
+sock_conf	read_conf.h	/^struct sock_conf$/;"	s
+std	Makefile	/^	gcc c.c md5.c display.c read_conf.c -std=gnu99 -o cc$/;"	m
+t_disbuf	display.h	2;"	d
+total_c	analyze_file_types.c	/^static long sock_c,lnk_c,reg_c,blk_c,dir_c,chr_c,fifo_c,total_c;    \/\/统计各种文件类型的数量$/;"	v	file:
+trim	read_conf.c	/^char* trim(char *str)$/;"	f

@@ -1,0 +1,35 @@
+ifndef TOPMTP_CONFIG_MANU
+TOPMTP_CONFIG_MANU=1
+
+#MTP_ROOT	= `pwd`
+MTP_ROOT	= ..
+
+SDK_PATH	= $(MTP_ROOT)/vp_sdk
+SDK_SRCS	= $(wildcard $(SDK_PATH)/*.c)
+SDK_HEDS	= $(wildcard $(SDK_PATH)/*.h)
+SDK_OBJS	= $(patsubst %.c, %.o, $(SDK_SRCS))
+
+MOD_PATH	= $(MTP_ROOT)/vp_mod
+MOD_SRCS	= $(wildcard $(MOD_PATH)/*.c)
+MOD_OBJS	= $(patsubst %.c, %.o, $(MOD_SRCS))
+
+PROTO_PATH  = $(MTP_ROOT)/vp_proto
+PROTO_SRCS	= $(patsubst $(PROTO_PATH)/demo.c, , $(wildcard $(PROTO_PATH)/*.c))
+PROTO_OBJS	= $(patsubst %.c, %.o, $(PROTO_SRCS))
+
+FERRY_PATH	= $(MTP_ROOT)/vp_ferry
+FERRY_SRCS	= $(patsubst $(FERRY_PATH)/vp_ferry.c, , $(wildcard $(FERRY_PATH)/*.c))
+FERRY_OBJS	= $(patsubst %.c, %.o, $(FERRY_SRCS))  $(PROTO_OBJS)
+
+LIB_PATH	= $(SDK_PATH)
+VPATH		= $(LIBPATH)
+
+HEADS		= $(wildcard *.h)
+SRCS		= $(wildcard *.c)
+OBJS		= $(patsubst %.c, %.o, $(SRCS))
+
+PCH_PATH	= $(SDK_PATH)
+PCH_H		= sysheader.h
+PCH			= $(MTP_ROOT)/$(PCH_H).gch
+
+endif #TOPMTP_CONFIG_MANU

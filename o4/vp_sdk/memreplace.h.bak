@@ -1,0 +1,10 @@
+#ifndef _MEMREPLACE_H_
+#define _MEMREPLACE_H_
+
+//int memreplace_pos(char *pos_b, char *pos_e, char **content, u32 *len, int times, char *src, int nsrc, char *dst, int ndst)
+int array_replace(char *array, int sz_array, int *sz_valid,
+        char *pos_b, char *pos_e, int times, char *src, int nsrc, char *dst, int ndst);
+
+#endif  // _MEMREPLACE_H_
+
+

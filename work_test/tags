@@ -1,0 +1,517 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARRAY_SIZE	get/get.c	34;"	d	file:
+BOOL	aa_raw_socket.c	9;"	d	file:
+BUFFER_MAX	raw_socket.c	8;"	d	file:
+BUFFER_SIZE	file_syn/cli_file.c	9;"	d	file:
+BUFFER_SIZE	file_syn/mod.c	10;"	d	file:
+BUFFER_SIZE	file_syn/ser_file.c	10;"	d	file:
+BUFFER_SIZE	file_syn/work_version/xvcli_1.c	6;"	d	file:
+BUFFER_SIZE	file_syn/work_version/xvser_1.c	2;"	d	file:
+BUFFER_SIZE	file_syn/xvcli_1.c	6;"	d	file:
+BUFFER_SIZE	file_syn/xvcli_debug.c	7;"	d	file:
+BUFFER_SIZE	file_syn/xversion/xvcli_1.c	29;"	d	file:
+BUFFER_SIZE	file_syn/xversion/xvcli_2.c	29;"	d	file:
+BUFFER_SIZE	file_syn/xversion/xvcli_debug.c	7;"	d	file:
+BUFFER_SIZE	file_syn/xversion/xvser_1.c	10;"	d	file:
+BUFFER_SIZE	file_syn/xversion/xvser_2.c	10;"	d	file:
+BUFFER_SIZE	file_syn/xversion/xvser_debug.c	4;"	d	file:
+BUFFER_SIZE	file_syn/xvser_1.c	2;"	d	file:
+BUFFER_SIZE	file_syn/xvser_debug.c	4;"	d	file:
+DispalyBuf	aa_raw_socket.c	/^void DispalyBuf(U8 *buf,U16 size)$/;"	f
+ERR_EXIT	file_syn/cli.c	12;"	d	file:
+ERR_EXIT	file_syn/ser.c	11;"	d	file:
+ETHTOOL_GSET	get/get.c	39;"	d	file:
+ETHTOOL_SSET	get/get.c	41;"	d	file:
+ExistRecord	ope_conf_file/tmp.c	/^int ExistRecord(int keyIndex,char *key,char *fileName,char *c)$/;"	f
+F	file_syn/md5.c	54;"	d	file:
+F	file_syn/work_version/md5.c	54;"	d	file:
+F	md5chk/md5.c	54;"	d	file:
+FALSE	aa_raw_socket.c	13;"	d	file:
+FF	file_syn/md5.c	64;"	d	file:
+FF	file_syn/work_version/md5.c	64;"	d	file:
+FF	md5chk/md5.c	64;"	d	file:
+FILE_NAME_MAX_SIZE	file_syn/cli_file.c	10;"	d	file:
+FILE_NAME_MAX_SIZE	file_syn/mod.c	11;"	d	file:
+FILE_NAME_MAX_SIZE	file_syn/ser_file.c	11;"	d	file:
+FILE_NAME_MAX_SIZE	file_syn/xvcli_debug.c	8;"	d	file:
+FILE_NAME_MAX_SIZE	file_syn/xversion/xvcli_1.c	30;"	d	file:
+FILE_NAME_MAX_SIZE	file_syn/xversion/xvcli_2.c	30;"	d	file:
+FILE_NAME_MAX_SIZE	file_syn/xversion/xvcli_debug.c	8;"	d	file:
+FILE_NAME_MAX_SIZE	file_syn/xversion/xvser_1.c	11;"	d	file:
+FILE_NAME_MAX_SIZE	file_syn/xversion/xvser_2.c	11;"	d	file:
+FILE_NAME_MAX_SIZE	file_syn/xversion/xvser_debug.c	5;"	d	file:
+FILE_NAME_MAX_SIZE	file_syn/xvser_debug.c	5;"	d	file:
+G	file_syn/md5.c	55;"	d	file:
+G	file_syn/work_version/md5.c	55;"	d	file:
+G	md5chk/md5.c	55;"	d	file:
+GG	file_syn/md5.c	69;"	d	file:
+GG	file_syn/work_version/md5.c	69;"	d	file:
+GG	md5chk/md5.c	69;"	d	file:
+GetMacAddress	aa_raw_socket.c	/^BOOL GetMacAddress(U8 *mac)$/;"	f
+GetPacket	aa_raw_socket.c	/^BOOL GetPacket(U8 *buf, U16 *len) $/;"	f
+H	file_syn/md5.c	56;"	d	file:
+H	file_syn/work_version/md5.c	56;"	d	file:
+H	md5chk/md5.c	56;"	d	file:
+HELLO_WORLD_SERVER_PORT	file_syn/cli_file.c	8;"	d	file:
+HELLO_WORLD_SERVER_PORT	file_syn/mod.c	8;"	d	file:
+HELLO_WORLD_SERVER_PORT	file_syn/ser_file.c	8;"	d	file:
+HELLO_WORLD_SERVER_PORT	file_syn/xvcli_debug.c	6;"	d	file:
+HELLO_WORLD_SERVER_PORT	file_syn/xversion/xvcli_1.c	28;"	d	file:
+HELLO_WORLD_SERVER_PORT	file_syn/xversion/xvcli_2.c	28;"	d	file:
+HELLO_WORLD_SERVER_PORT	file_syn/xversion/xvcli_debug.c	6;"	d	file:
+HELLO_WORLD_SERVER_PORT	file_syn/xversion/xvser_1.c	8;"	d	file:
+HELLO_WORLD_SERVER_PORT	file_syn/xversion/xvser_2.c	8;"	d	file:
+HELLO_WORLD_SERVER_PORT	file_syn/xversion/xvser_debug.c	2;"	d	file:
+HELLO_WORLD_SERVER_PORT	file_syn/xvser_debug.c	2;"	d	file:
+HH	file_syn/md5.c	74;"	d	file:
+HH	file_syn/work_version/md5.c	74;"	d	file:
+HH	md5chk/md5.c	74;"	d	file:
+I	file_syn/md5.c	57;"	d	file:
+I	file_syn/work_version/md5.c	57;"	d	file:
+I	md5chk/md5.c	57;"	d	file:
+II	file_syn/md5.c	79;"	d	file:
+II	file_syn/work_version/md5.c	79;"	d	file:
+II	md5chk/md5.c	79;"	d	file:
+InitEtherNetIf	aa_raw_socket.c	/^BOOL InitEtherNetIf(void)$/;"	f
+LENGTH_OF_LISTEN_QUEUE	file_syn/mod.c	9;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	file_syn/ser_file.c	9;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	file_syn/work_version/xvser_1.c	1;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	file_syn/xversion/xvser_1.c	9;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	file_syn/xversion/xvser_2.c	9;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	file_syn/xversion/xvser_debug.c	3;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	file_syn/xvser_1.c	1;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	file_syn/xvser_debug.c	3;"	d	file:
+MALLOC_FALSE	ope_conf_file/tmp.c	3;"	d	file:
+MAX_NO_PACKETS	like_ping.c	15;"	d	file:
+MAX_NO_PACKETS	myping.c	18;"	d	file:
+MAX_WAIT_TIME	like_ping.c	14;"	d	file:
+MAX_WAIT_TIME	myping.c	17;"	d	file:
+MD5Final	file_syn/md5.c	/^void MD5Final (MD5_CTX *mdContext)$/;"	f
+MD5Final	file_syn/work_version/md5.c	/^void MD5Final (MD5_CTX *mdContext)$/;"	f
+MD5Final	md5chk/md5.c	/^void MD5Final (MD5_CTX *mdContext)$/;"	f
+MD5Init	file_syn/md5.c	/^void MD5Init (MD5_CTX *mdContext)$/;"	f
+MD5Init	file_syn/work_version/md5.c	/^void MD5Init (MD5_CTX *mdContext)$/;"	f
+MD5Init	md5chk/md5.c	/^void MD5Init (MD5_CTX *mdContext)$/;"	f
+MD5Update	file_syn/md5.c	/^void MD5Update (MD5_CTX *mdContext, unsigned char *inBuf, unsigned int inLen)$/;"	f
+MD5Update	file_syn/work_version/md5.c	/^void MD5Update (MD5_CTX *mdContext, unsigned char *inBuf, unsigned int inLen)$/;"	f
+MD5Update	md5chk/md5.c	/^void MD5Update (MD5_CTX *mdContext, unsigned char *inBuf, unsigned int inLen)$/;"	f
+MD5_CTX	file_syn/md5.h	/^} MD5_CTX;$/;"	t	typeref:struct:__anon2
+MD5_CTX	file_syn/work_version/md5.h	/^} MD5_CTX;$/;"	t	typeref:struct:__anon3
+MD5_CTX	md5chk/md5.h	/^} MD5_CTX;$/;"	t	typeref:struct:__anon1
+MD5_file	file_syn/test.c	/^char *MD5_file (char *path, int md5_len)$/;"	f
+MD5_file	file_syn/work_version/xvser_1.c	/^char *MD5_file (char *path, int md5_len)$/;"	f
+MD5_file	file_syn/xversion/xvser_debug.c	/^char *MD5_file (char *path, int md5_len)$/;"	f
+MD5_file	file_syn/xvser_1.c	/^char *MD5_file (char *path, int md5_len)$/;"	f
+MD5_file	file_syn/xvser_debug.c	/^char *MD5_file (char *path, int md5_len)$/;"	f
+MD5_file	md5chk/test.c	/^char *MD5_file (char *path, int md5_len)$/;"	f
+OK	ope_conf_file/tmp.c	6;"	d	file:
+OPEN_FILE_READ_FALSE	ope_conf_file/tmp.c	4;"	d	file:
+PACKET_SIZE	like_ping.c	13;"	d	file:
+PACKET_SIZE	myping.c	16;"	d	file:
+PADDING	file_syn/md5.c	/^static unsigned char PADDING[64] = {$/;"	v	file:
+PADDING	file_syn/work_version/md5.c	/^static unsigned char PADDING[64] = {$/;"	v	file:
+PADDING	md5chk/md5.c	/^static unsigned char PADDING[64] = {$/;"	v	file:
+ROTATE_LEFT	file_syn/md5.c	60;"	d	file:
+ROTATE_LEFT	file_syn/work_version/md5.c	60;"	d	file:
+ROTATE_LEFT	md5chk/md5.c	60;"	d	file:
+S11	file_syn/md5.c	175;"	d	file:
+S11	file_syn/work_version/md5.c	175;"	d	file:
+S11	md5chk/md5.c	175;"	d	file:
+S12	file_syn/md5.c	176;"	d	file:
+S12	file_syn/work_version/md5.c	176;"	d	file:
+S12	md5chk/md5.c	176;"	d	file:
+S13	file_syn/md5.c	177;"	d	file:
+S13	file_syn/work_version/md5.c	177;"	d	file:
+S13	md5chk/md5.c	177;"	d	file:
+S14	file_syn/md5.c	178;"	d	file:
+S14	file_syn/work_version/md5.c	178;"	d	file:
+S14	md5chk/md5.c	178;"	d	file:
+S21	file_syn/md5.c	197;"	d	file:
+S21	file_syn/work_version/md5.c	197;"	d	file:
+S21	md5chk/md5.c	197;"	d	file:
+S22	file_syn/md5.c	198;"	d	file:
+S22	file_syn/work_version/md5.c	198;"	d	file:
+S22	md5chk/md5.c	198;"	d	file:
+S23	file_syn/md5.c	199;"	d	file:
+S23	file_syn/work_version/md5.c	199;"	d	file:
+S23	md5chk/md5.c	199;"	d	file:
+S24	file_syn/md5.c	200;"	d	file:
+S24	file_syn/work_version/md5.c	200;"	d	file:
+S24	md5chk/md5.c	200;"	d	file:
+S31	file_syn/md5.c	219;"	d	file:
+S31	file_syn/work_version/md5.c	219;"	d	file:
+S31	md5chk/md5.c	219;"	d	file:
+S32	file_syn/md5.c	220;"	d	file:
+S32	file_syn/work_version/md5.c	220;"	d	file:
+S32	md5chk/md5.c	220;"	d	file:
+S33	file_syn/md5.c	221;"	d	file:
+S33	file_syn/work_version/md5.c	221;"	d	file:
+S33	md5chk/md5.c	221;"	d	file:
+S34	file_syn/md5.c	222;"	d	file:
+S34	file_syn/work_version/md5.c	222;"	d	file:
+S34	md5chk/md5.c	222;"	d	file:
+S41	file_syn/md5.c	241;"	d	file:
+S41	file_syn/work_version/md5.c	241;"	d	file:
+S41	md5chk/md5.c	241;"	d	file:
+S42	file_syn/md5.c	242;"	d	file:
+S42	file_syn/work_version/md5.c	242;"	d	file:
+S42	md5chk/md5.c	242;"	d	file:
+S43	file_syn/md5.c	243;"	d	file:
+S43	file_syn/work_version/md5.c	243;"	d	file:
+S43	md5chk/md5.c	243;"	d	file:
+S44	file_syn/md5.c	244;"	d	file:
+S44	file_syn/work_version/md5.c	244;"	d	file:
+S44	md5chk/md5.c	244;"	d	file:
+SIOCETHTOOL	get/get.c	30;"	d	file:
+SPEED_10	get/get.c	53;"	d	file:
+SPEED_100	get/get.c	54;"	d	file:
+SPEED_1000	get/get.c	56;"	d	file:
+SPEED_10000	get/get.c	59;"	d	file:
+SPEED_2500	get/get.c	57;"	d	file:
+STD_BUF	ope_conf_file/tmp.c	5;"	d	file:
+SendPacket	aa_raw_socket.c	/^BOOL SendPacket(U8 *buf, U16 len)$/;"	f
+TRUE	aa_raw_socket.c	12;"	d	file:
+Transform	file_syn/md5.c	/^static void Transform (UINT4 *buf, UINT4 *in)$/;"	f	file:
+Transform	file_syn/work_version/md5.c	/^static void Transform (UINT4 *buf, UINT4 *in)$/;"	f	file:
+Transform	md5chk/md5.c	/^static void Transform (UINT4 *buf, UINT4 *in)$/;"	f	file:
+U16	aa_raw_socket.c	11;"	d	file:
+U8	aa_raw_socket.c	10;"	d	file:
+UINT4	file_syn/md5.h	/^typedef unsigned long int UINT4;$/;"	t
+UINT4	file_syn/work_version/md5.h	/^typedef unsigned long int UINT4;$/;"	t
+UINT4	md5chk/md5.h	/^typedef unsigned long int UINT4;$/;"	t
+__conf_item	file_syn/read_conf.h	/^typedef struct __conf_item$/;"	s
+__conf_item	file_syn/work_version/read_conf.h	/^typedef struct __conf_item$/;"	s
+__conf_item	ope_conf_file/tmp.c	/^typedef struct __conf_item$/;"	s	file:
+__conf_item	read_sock_conf/tmp.c	/^typedef struct __conf_item$/;"	s	file:
+__query_conf	file_syn/read_conf.h	/^typedef struct __query_conf$/;"	s
+__query_conf	file_syn/work_version/read_conf.h	/^typedef struct __query_conf$/;"	s
+__query_conf	ope_conf_file/tmp.c	/^typedef struct __query_conf$/;"	s	file:
+__query_conf	read_sock_conf/tmp.c	/^typedef struct __query_conf$/;"	s	file:
+__sc	file_syn/read_conf.c	/^struct sock_conf __sc;$/;"	v	typeref:struct:sock_conf
+__sc	file_syn/work_version/read_conf.c	/^struct sock_conf __sc;$/;"	v	typeref:struct:sock_conf
+__u16	get/get.c	/^typedef __uint16_t __u16;       \/* ditto *\/  $/;"	t	file:
+__u32	get/get.c	/^typedef __uint32_t __u32;       \/* ditto *\/  $/;"	t	file:
+__u8	get/get.c	/^typedef __uint8_t __u8;         \/* ditto *\/  $/;"	t	file:
+_t_disbuf	chksum/xvser_1.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+_t_disbuf	file_syn/display.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+_t_disbuf	file_syn/work_version/display.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+_t_disbuf	file_syn/xversion/xvcli_1.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+_t_disbuf	file_syn/xversion/xvcli_2.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+_t_disbuf	file_syn/xversion/xvser_1.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+_t_disbuf	file_syn/xversion/xvser_2.c	/^void _t_disbuf(const unsigned char *buf, int len)$/;"	f
+addRecord	ope_conf_file/tmp.c	/^int addRecord(int keyIndex,int numRecord,char **Record,char *fileName,char *c)$/;"	f
+advertising	get/get.c	/^	__u32   advertising;    \/* Features this interface advertises *\/  $/;"	m	struct:ethtool_cmd	file:
+autoneg	get/get.c	/^	__u8    autoneg;        \/* Enable or disable autonegotiation *\/  $/;"	m	struct:ethtool_cmd	file:
+buf	file_syn/md5.h	/^	UINT4 buf[4];                                    \/* scratch buffer *\/$/;"	m	struct:__anon2
+buf	file_syn/work_version/md5.h	/^	UINT4 buf[4];                                    \/* scratch buffer *\/$/;"	m	struct:__anon3
+buf	md5chk/md5.h	/^	UINT4 buf[4];                                    \/* scratch buffer *\/$/;"	m	struct:__anon1
+cal_chksum	chksum/xvser_1.c	/^unsigned short cal_chksum(unsigned short *addr,int len)$/;"	f
+cal_chksum	file_syn/xversion/xvcli_2.c	/^unsigned short cal_chksum(unsigned short *addr,int len)$/;"	f
+cal_chksum	file_syn/xversion/xvser_2.c	/^unsigned short cal_chksum(unsigned short *addr,int len)$/;"	f
+cal_chksum	like_ping.c	/^unsigned short cal_chksum(unsigned short *addr,int len)$/;"	f
+cal_chksum	myping.c	/^unsigned short cal_chksum(unsigned short *addr,int len)$/;"	f
+cgiHeaderFlag	ope_conf_file/tmp.c	/^static int    cgiHeaderFlag = 0;$/;"	v	file:
+cgiPrintf	ope_conf_file/tmp.c	/^int cgiPrintf(char *fmt, ...)$/;"	f
+check_parameter	gap_upload.html	/^function check_parameter()$/;"	f
+check_parameter	virus_update_local.html	/^function check_parameter()$/;"	f
+cmd	get/get.c	/^	__u32   cmd;  $/;"	m	struct:ethtool_cmd	file:
+conf_item	file_syn/read_conf.h	/^} conf_item;$/;"	t	typeref:struct:__conf_item
+conf_item	file_syn/work_version/read_conf.h	/^} conf_item;$/;"	t	typeref:struct:__conf_item
+conf_item	ope_conf_file/tmp.c	/^} conf_item;$/;"	t	typeref:struct:__conf_item	file:
+conf_item	read_sock_conf/tmp.c	/^} conf_item;$/;"	t	typeref:struct:__conf_item	file:
+datalen	like_ping.c	/^int sockfd,datalen=56;$/;"	v
+datalen	myping.c	/^int sockfd,datalen=56;$/;"	v
+deal_with_item_line	file_syn/read_conf.c	/^static conf_item *deal_with_item_line(char *read_line, query_conf **p_conf_que, conf_item **p_item_tail)$/;"	f	file:
+deal_with_item_line	file_syn/work_version/read_conf.c	/^static conf_item *deal_with_item_line(char *read_line, query_conf **p_conf_que, conf_item **p_item_tail)$/;"	f	file:
+deal_with_item_line	ope_conf_file/tmp.c	/^static conf_item *deal_with_item_line(char *read_line, query_conf **p_conf_que, conf_item **p_item_tail)$/;"	f	file:
+deal_with_item_line	read_sock_conf/tmp.c	/^static conf_item *deal_with_item_line(char *read_line, query_conf **p_conf_que, conf_item **p_item_tail)$/;"	f	file:
+deal_with_label_line	file_syn/read_conf.c	/^static query_conf *deal_with_label_line(char *read_line, query_conf **p_conf_head, query_conf **p_conf_tail)$/;"	f	file:
+deal_with_label_line	file_syn/work_version/read_conf.c	/^static query_conf *deal_with_label_line(char *read_line, query_conf **p_conf_head, query_conf **p_conf_tail)$/;"	f	file:
+deal_with_label_line	ope_conf_file/tmp.c	/^static query_conf *deal_with_label_line(char *read_line, query_conf **p_conf_head, query_conf **p_conf_tail)$/;"	f	file:
+deal_with_label_line	read_sock_conf/tmp.c	/^static query_conf *deal_with_label_line(char *read_line, query_conf **p_conf_head, query_conf **p_conf_tail)$/;"	f	file:
+delMultiRecord	ope_conf_file/tmp.c	/^int delMultiRecord(int keyIndex,int numDel,char **delKey,char *fileName,char *c)$/;"	f
+delRecord	ope_conf_file/tmp.c	/^int delRecord(int keyIndex,char *key,char *fileName,char *c)$/;"	f
+dest_addr	like_ping.c	/^struct sockaddr_in dest_addr;$/;"	v	typeref:struct:sockaddr_in
+dest_addr	myping.c	/^struct sockaddr_in dest_addr;$/;"	v	typeref:struct:sockaddr_in
+digest	file_syn/md5.h	/^	unsigned char digest[16];     \/* actual digest after MD5Final call *\/$/;"	m	struct:__anon2
+digest	file_syn/work_version/md5.h	/^	unsigned char digest[16];     \/* actual digest after MD5Final call *\/$/;"	m	struct:__anon3
+digest	md5chk/md5.h	/^	unsigned char digest[16];     \/* actual digest after MD5Final call *\/$/;"	m	struct:__anon1
+dis_interpret	chksum/xvser_1.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+dis_interpret	file_syn/display.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+dis_interpret	file_syn/work_version/display.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+dis_interpret	file_syn/xversion/xvcli_1.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+dis_interpret	file_syn/xversion/xvcli_2.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+dis_interpret	file_syn/xversion/xvser_1.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+dis_interpret	file_syn/xversion/xvser_2.c	/^static void dis_interpret(const unsigned char *buf, int len)$/;"	f	file:
+duplex	get/get.c	/^	__u8    duplex;         \/* Duplex, half or full *\/  $/;"	m	struct:ethtool_cmd	file:
+ethtool_cmd	get/get.c	/^struct ethtool_cmd {  $/;"	s	file:
+fd	aa_raw_socket.c	/^static int fd;$/;"	v	file:
+find_label	file_syn/read_conf.c	/^query_conf *find_label(query_conf *p_query_conf, char *label_name)$/;"	f
+find_label	file_syn/work_version/read_conf.c	/^query_conf *find_label(query_conf *p_query_conf, char *label_name)$/;"	f
+find_label	ope_conf_file/tmp.c	/^query_conf *find_label(query_conf *p_query_conf, char *label_name)$/;"	f
+find_label	read_sock_conf/tmp.c	/^query_conf *find_label(query_conf *p_query_conf, char *label_name)$/;"	f
+free_configuration	file_syn/read_conf.c	/^void free_configuration(query_conf **pque)$/;"	f
+free_configuration	file_syn/work_version/read_conf.c	/^void free_configuration(query_conf **pque)$/;"	f
+free_configuration	ope_conf_file/tmp.c	/^void free_configuration(query_conf **pque)$/;"	f
+free_configuration	read_sock_conf/tmp.c	/^void free_configuration(query_conf **pque)$/;"	f
+free_item	file_syn/read_conf.c	/^void free_item(conf_item **item)$/;"	f
+free_item	file_syn/work_version/read_conf.c	/^void free_item(conf_item **item)$/;"	f
+free_item	ope_conf_file/tmp.c	/^void free_item(conf_item **item)$/;"	f
+free_item	read_sock_conf/tmp.c	/^void free_item(conf_item **item)$/;"	f
+from	like_ping.c	/^struct sockaddr_in from;$/;"	v	typeref:struct:sockaddr_in
+from	myping.c	/^struct sockaddr_in from;$/;"	v	typeref:struct:sockaddr_in
+gBuf	aa_raw_socket.c	/^U8  gBuf[2000] = {0};$/;"	v
+gLen	aa_raw_socket.c	/^U16 gLen=0;$/;"	v
+gTxBuf	aa_raw_socket.c	/^U8  gTxBuf[2000];$/;"	v
+getField	ope_conf_file/tmp.c	/^int getField( int Index,		\/\/ ×Ö¶ÎºÅ$/;"	f
+getFieldValue	ope_conf_file/tmp.c	/^int getFieldValue( int keyIndex,	\/\/ Ö÷¼üÐòºÅ$/;"	f
+get_fname_from_args	file_syn/work_version/xvcli_1.c	/^int get_fname_from_args(char* file_name)$/;"	f
+get_fname_from_args	file_syn/xvcli_1.c	/^int get_fname_from_args(char* file_name)$/;"	f
+get_u16	raw_socket.c	11;"	d	file:
+get_u32	raw_socket.c	10;"	d	file:
+get_u8	raw_socket.c	12;"	d	file:
+get_value_from_label	file_syn/read_conf.c	/^char *get_value_from_label(query_conf *que, char *item_name)$/;"	f
+get_value_from_label	file_syn/work_version/read_conf.c	/^char *get_value_from_label(query_conf *que, char *item_name)$/;"	f
+get_value_from_label	ope_conf_file/tmp.c	/^char *get_value_from_label(query_conf *que, char *item_name)$/;"	f
+get_value_from_label	read_sock_conf/tmp.c	/^char *get_value_from_label(query_conf *que, char *item_name)$/;"	f
+handle_events	test_inotify.c	/^handle_events(int fd, int *wd, int argc, char* argv[])$/;"	f	file:
+i	file_syn/md5.h	/^	UINT4 i[2];                   \/* number of _bits_ handled mod 2^64 *\/$/;"	m	struct:__anon2
+i	file_syn/work_version/md5.h	/^	UINT4 i[2];                   \/* number of _bits_ handled mod 2^64 *\/$/;"	m	struct:__anon3
+i	md5chk/md5.h	/^	UINT4 i[2];                   \/* number of _bits_ handled mod 2^64 *\/$/;"	m	struct:__anon1
+if_index	aa_raw_socket.c	/^static int if_index;$/;"	v	file:
+if_mac	aa_raw_socket.c	/^static unsigned char if_mac[6];$/;"	v	file:
+in	file_syn/md5.h	/^	unsigned char in[64];                              \/* input buffer *\/$/;"	m	struct:__anon2
+in	file_syn/work_version/md5.h	/^	unsigned char in[64];                              \/* input buffer *\/$/;"	m	struct:__anon3
+in	md5chk/md5.h	/^	unsigned char in[64];                              \/* input buffer *\/$/;"	m	struct:__anon1
+inet_atoul	file_syn/read_conf.c	/^unsigned int inet_atoul(const char * s)$/;"	f
+inet_atoul	file_syn/work_version/read_conf.c	/^unsigned int inet_atoul(const char * s)$/;"	f
+inet_atoul	ope_conf_file/tmp.c	/^unsigned int inet_atoul(const char * s)$/;"	f
+inet_atoul	read_sock_conf/tmp.c	/^unsigned int inet_atoul(const char * s)$/;"	f
+inet_ultoa	file_syn/read_conf.c	/^char * inet_ultoa(unsigned int u, char * s)$/;"	f
+inet_ultoa	file_syn/work_version/read_conf.c	/^char * inet_ultoa(unsigned int u, char * s)$/;"	f
+inet_ultoa	ope_conf_file/tmp.c	/^char * inet_ultoa(unsigned int u, char * s)$/;"	f
+inet_ultoa	read_sock_conf/tmp.c	/^char * inet_ultoa(unsigned int u, char * s)$/;"	f
+init_conf	file_syn/work_version/xvcli_1.c	/^int init_conf()$/;"	f
+init_conf	file_syn/xvcli_1.c	/^int init_conf()$/;"	f
+init_conf	file_syn/xvcli_debug.c	/^int init_conf()$/;"	f
+init_conf	file_syn/xversion/xvcli_debug.c	/^int init_conf()$/;"	f
+init_conf	file_syn/xversion/xvser_debug.c	/^int init_conf()$/;"	f
+init_conf	file_syn/xvser_debug.c	/^int init_conf()$/;"	f
+init_sock	file_syn/work_version/xvcli_1.c	/^int init_sock(unsigned int s_ip, unsigned short s_port)$/;"	f
+init_sock	file_syn/xvcli_1.c	/^int init_sock(unsigned int s_ip, unsigned short s_port)$/;"	f
+init_sock	file_syn/xvcli_debug.c	/^int init_sock(unsigned int s_ip, unsigned short s_port)$/;"	f
+init_sock	file_syn/xversion/xvcli_1.c	/^int init_sock()$/;"	f
+init_sock	file_syn/xversion/xvcli_2.c	/^int init_sock()$/;"	f
+init_sock	file_syn/xversion/xvcli_debug.c	/^int init_sock(unsigned int s_ip, unsigned short s_port)$/;"	f
+init_sock	file_syn/xversion/xvser_1.c	/^int init_sock()$/;"	f
+init_sock	file_syn/xversion/xvser_2.c	/^int init_sock()$/;"	f
+init_sock	file_syn/xversion/xvser_debug.c	/^int init_sock(unsigned int s_ip, unsigned short s_port)$/;"	f
+init_sock	file_syn/xvser_debug.c	/^int init_sock(unsigned int s_ip, unsigned short s_port)$/;"	f
+init_sock_conf	file_syn/work_version/xvser_1.c	/^int init_sock_conf(unsigned int s_ip, unsigned short s_port)$/;"	f
+init_sock_conf	file_syn/xvser_1.c	/^int init_sock_conf(unsigned int s_ip, unsigned short s_port)$/;"	f
+item_name	file_syn/read_conf.h	/^    char *item_name;$/;"	m	struct:__conf_item
+item_name	file_syn/work_version/read_conf.h	/^    char *item_name;$/;"	m	struct:__conf_item
+item_name	ope_conf_file/tmp.c	/^    char *item_name;$/;"	m	struct:__conf_item	file:
+item_name	read_sock_conf/tmp.c	/^    char *item_name;$/;"	m	struct:__conf_item	file:
+item_next	file_syn/read_conf.h	/^    struct __conf_item *item_next;$/;"	m	struct:__conf_item	typeref:struct:__conf_item::__conf_item
+item_next	file_syn/work_version/read_conf.h	/^    struct __conf_item *item_next;$/;"	m	struct:__conf_item	typeref:struct:__conf_item::__conf_item
+item_next	ope_conf_file/tmp.c	/^    struct __conf_item *item_next;$/;"	m	struct:__conf_item	typeref:struct:__conf_item::__conf_item	file:
+item_next	read_sock_conf/tmp.c	/^    struct __conf_item *item_next;$/;"	m	struct:__conf_item	typeref:struct:__conf_item::__conf_item	file:
+item_value	file_syn/read_conf.h	/^    char *item_value;$/;"	m	struct:__conf_item
+item_value	file_syn/work_version/read_conf.h	/^    char *item_value;$/;"	m	struct:__conf_item
+item_value	ope_conf_file/tmp.c	/^    char *item_value;$/;"	m	struct:__conf_item	file:
+item_value	read_sock_conf/tmp.c	/^    char *item_value;$/;"	m	struct:__conf_item	file:
+label_item	file_syn/read_conf.h	/^    conf_item *label_item;$/;"	m	struct:__query_conf
+label_item	file_syn/work_version/read_conf.h	/^    conf_item *label_item;$/;"	m	struct:__query_conf
+label_item	ope_conf_file/tmp.c	/^    conf_item *label_item;$/;"	m	struct:__query_conf	file:
+label_item	read_sock_conf/tmp.c	/^    conf_item *label_item;$/;"	m	struct:__query_conf	file:
+label_name	file_syn/read_conf.h	/^    char *label_name;$/;"	m	struct:__query_conf
+label_name	file_syn/work_version/read_conf.h	/^    char *label_name;$/;"	m	struct:__query_conf
+label_name	ope_conf_file/tmp.c	/^    char *label_name;$/;"	m	struct:__query_conf	file:
+label_name	read_sock_conf/tmp.c	/^    char *label_name;$/;"	m	struct:__query_conf	file:
+label_next	file_syn/read_conf.h	/^    struct __query_conf *label_next;$/;"	m	struct:__query_conf	typeref:struct:__query_conf::__query_conf
+label_next	file_syn/work_version/read_conf.h	/^    struct __query_conf *label_next;$/;"	m	struct:__query_conf	typeref:struct:__query_conf::__query_conf
+label_next	ope_conf_file/tmp.c	/^    struct __query_conf *label_next;$/;"	m	struct:__query_conf	typeref:struct:__query_conf::__query_conf	file:
+label_next	read_sock_conf/tmp.c	/^    struct __query_conf *label_next;$/;"	m	struct:__query_conf	typeref:struct:__query_conf::__query_conf	file:
+line_from_buf	file_syn/read_conf.c	/^char* line_from_buf(char *cursor, char *store, int storesz)$/;"	f
+line_from_buf	file_syn/work_version/read_conf.c	/^char* line_from_buf(char *cursor, char *store, int storesz)$/;"	f
+line_from_buf	ope_conf_file/tmp.c	/^char* line_from_buf(char *cursor, char *store, int storesz)$/;"	f
+line_from_buf	read_sock_conf/tmp.c	/^char* line_from_buf(char *cursor, char *store, int storesz)$/;"	f
+load_configuration	file_syn/read_conf.c	/^query_conf * load_configuration(const char *filepath)$/;"	f
+load_configuration	file_syn/work_version/read_conf.c	/^query_conf * load_configuration(const char *filepath)$/;"	f
+load_configuration	ope_conf_file/tmp.c	/^query_conf * load_configuration(const char *filepath)$/;"	f
+load_configuration	read_sock_conf/tmp.c	/^query_conf * load_configuration(const char *filepath)$/;"	f
+mSplit	ope_conf_file/tmp.c	/^char **mSplit(	char *str, 			\/\/ Òª·Ö½âµÄ×Ö·û´®$/;"	f
+main	aa_raw_socket.c	/^int main(void)$/;"	f
+main	big_num.c	/^int main()$/;"	f
+main	chksum/xvser_1.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/cli.c	/^int main(void)$/;"	f
+main	file_syn/cli_file.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/mod.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/ser.c	/^int main(void)$/;"	f
+main	file_syn/ser_file.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/test.c	/^int main(int argc, char *argv[])$/;"	f
+main	file_syn/work_version/xvcli_1.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/work_version/xvser_1.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/xvcli_1.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/xvcli_debug.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/xversion/xvcli_1.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/xversion/xvcli_2.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/xversion/xvcli_debug.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/xversion/xvser_1.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/xversion/xvser_2.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/xversion/xvser_debug.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/xvser_1.c	/^int main(int argc, char **argv)  $/;"	f
+main	file_syn/xvser_debug.c	/^int main(int argc, char **argv)  $/;"	f
+main	get/get.c	/^int main(int argc, char *argp[])  $/;"	f
+main	like_ping.c	/^main(int argc,char *argv[])$/;"	f
+main	md5chk/test.c	/^int main(int argc, char *argv[])$/;"	f
+main	myping.c	/^main(int argc,char *argv[])$/;"	f
+main	ope_conf_file/tmp.c	/^int main()$/;"	f
+main	popen/my_popen.c	/^int main(int argc, char *argv)$/;"	f
+main	raw_socket.c	/^int main(int argc, char *argv[])$/;"	f
+main	read_sock_conf/tmp.c	/^int main()$/;"	f
+main	test.c	/^int main(){$/;"	f
+main	test_inotify.c	/^int main(int argc, char* argv[])$/;"	f
+maxrxpkt	get/get.c	/^	__u32   maxrxpkt;       \/* Rx pkts before generating rx int *\/  $/;"	m	struct:ethtool_cmd	file:
+maxtxpkt	get/get.c	/^	__u32   maxtxpkt;       \/* Tx pkts before generating tx int *\/  $/;"	m	struct:ethtool_cmd	file:
+md5_src	file_syn/work_version/xvser_1.c	/^char md5_src[33];$/;"	v
+md5_src	file_syn/xversion/xvser_debug.c	/^char md5_src[33];$/;"	v
+md5_src	file_syn/xvser_1.c	/^char md5_src[33];$/;"	v
+md5_src	file_syn/xvser_debug.c	/^char md5_src[33];$/;"	v
+move_conf	file_syn/xversion/xvser_debug.c	/^int move_conf(char *fsrc, char *fdst)$/;"	f
+move_conf	file_syn/xvser_debug.c	/^int move_conf(char *fsrc, char *fdst)$/;"	f
+multi	big_num.c	/^int* multi(int*num1,int size1,int* num2,int size2)$/;"	f
+nreceived	like_ping.c	/^int nsend=0,nreceived=0;$/;"	v
+nreceived	myping.c	/^int nsend=0,nreceived=0;$/;"	v
+nsend	like_ping.c	/^int nsend=0,nreceived=0;$/;"	v
+nsend	myping.c	/^int nsend=0,nreceived=0;$/;"	v
+pack	like_ping.c	/^int pack(int pack_no)$/;"	f
+pack	myping.c	/^int pack(int pack_no)$/;"	f
+par_args	file_syn/xvcli_debug.c	/^void par_args(int argc, char **argv)$/;"	f
+par_args	file_syn/xversion/xvcli_1.c	/^void par_args(int argc, char **argv)$/;"	f
+par_args	file_syn/xversion/xvcli_2.c	/^void par_args(int argc, char **argv)$/;"	f
+par_args	file_syn/xversion/xvcli_debug.c	/^void par_args(int argc, char **argv)$/;"	f
+pars_filename	file_syn/xvcli_debug.c	/^void pars_filename(int argc, char **argv)$/;"	f
+pars_filename	file_syn/xversion/xvcli_1.c	/^void pars_filename(int argc, char **argv)$/;"	f
+pars_filename	file_syn/xversion/xvcli_2.c	/^void pars_filename(int argc, char **argv)$/;"	f
+pars_filename	file_syn/xversion/xvcli_debug.c	/^void pars_filename(int argc, char **argv)$/;"	f
+parse_args	file_syn/work_version/xvcli_1.c	/^void parse_args(int argc, char **argv)$/;"	f
+parse_args	file_syn/xvcli_1.c	/^void parse_args(int argc, char **argv)$/;"	f
+parse_fname	file_syn/work_version/xvcli_1.c	/^void parse_fname(int argc, char **argv)$/;"	f
+parse_fname	file_syn/xvcli_1.c	/^void parse_fname(int argc, char **argv)$/;"	f
+phy_address	get/get.c	/^	__u8    phy_address;  $/;"	m	struct:ethtool_cmd	file:
+pid	like_ping.c	/^pid_t pid;$/;"	v
+pid	myping.c	/^pid_t pid;$/;"	v
+port	get/get.c	/^	__u8    port;           \/* Which connector port *\/  $/;"	m	struct:ethtool_cmd	file:
+pre_deal_with_line	file_syn/read_conf.c	/^char *pre_deal_with_line(char *line)$/;"	f
+pre_deal_with_line	file_syn/work_version/read_conf.c	/^char *pre_deal_with_line(char *line)$/;"	f
+pre_deal_with_line	ope_conf_file/tmp.c	/^char *pre_deal_with_line(char *line)$/;"	f
+pre_deal_with_line	read_sock_conf/tmp.c	/^char *pre_deal_with_line(char *line)$/;"	f
+print_char	chksum/xvser_1.c	/^static void print_char(char ch)$/;"	f	file:
+print_char	file_syn/display.c	/^static void print_char(char ch)$/;"	f	file:
+print_char	file_syn/work_version/display.c	/^static void print_char(char ch)$/;"	f	file:
+print_char	file_syn/xversion/xvcli_1.c	/^static void print_char(char ch)$/;"	f	file:
+print_char	file_syn/xversion/xvcli_2.c	/^static void print_char(char ch)$/;"	f	file:
+print_char	file_syn/xversion/xvser_1.c	/^static void print_char(char ch)$/;"	f	file:
+print_char	file_syn/xversion/xvser_2.c	/^static void print_char(char ch)$/;"	f	file:
+query_conf	file_syn/read_conf.h	/^} query_conf;$/;"	t	typeref:struct:__query_conf
+query_conf	file_syn/work_version/read_conf.h	/^} query_conf;$/;"	t	typeref:struct:__query_conf
+query_conf	ope_conf_file/tmp.c	/^} query_conf;$/;"	t	typeref:struct:__query_conf	file:
+query_conf	read_sock_conf/tmp.c	/^} query_conf;$/;"	t	typeref:struct:__query_conf	file:
+read_file	file_syn/xvcli_debug.c	/^int read_file(char* file_name)$/;"	f
+read_file	file_syn/xversion/xvcli_1.c	/^int read_file(char* file_name)$/;"	f
+read_file	file_syn/xversion/xvcli_2.c	/^int read_file(char* file_name)$/;"	f
+read_file	file_syn/xversion/xvcli_debug.c	/^int read_file(char* file_name)$/;"	f
+read_sock_conf	file_syn/work_version/xvser_1.c	/^int read_sock_conf()$/;"	f
+read_sock_conf	file_syn/xvser_1.c	/^int read_sock_conf()$/;"	f
+recv_data	file_syn/xversion/xvser_1.c	/^int recv_data()$/;"	f
+recv_data	file_syn/xversion/xvser_2.c	/^int recv_data()$/;"	f
+recv_data	file_syn/xversion/xvser_debug.c	/^int recv_data()$/;"	f
+recv_data	file_syn/xvser_debug.c	/^int recv_data()$/;"	f
+recv_file_data	file_syn/work_version/xvser_1.c	/^int recv_file_data()$/;"	f
+recv_file_data	file_syn/xvser_1.c	/^int recv_file_data()$/;"	f
+recv_packet	like_ping.c	/^void recv_packet()$/;"	f
+recv_packet	myping.c	/^void recv_packet()$/;"	f
+recvpacket	like_ping.c	/^char recvpacket[PACKET_SIZE];$/;"	v
+recvpacket	myping.c	/^char recvpacket[PACKET_SIZE];$/;"	v
+replace_conf_file	file_syn/work_version/xvser_1.c	/^int replace_conf_file(char *fsrc, char *fdst)$/;"	f
+replace_conf_file	file_syn/xvser_1.c	/^int replace_conf_file(char *fsrc, char *fdst)$/;"	f
+reserved	get/get.c	/^	__u32   reserved[4];  $/;"	m	struct:ethtool_cmd	file:
+s_ip	file_syn/read_conf.h	/^	unsigned int s_ip;$/;"	m	struct:sock_conf
+s_ip	file_syn/work_version/read_conf.h	/^	unsigned int s_ip;$/;"	m	struct:sock_conf
+s_ip	ope_conf_file/tmp.c	/^	unsigned int s_ip;$/;"	m	struct:sock_conf	file:
+s_ip	read_sock_conf/tmp.c	/^	unsigned int s_ip;$/;"	m	struct:sock_conf	file:
+s_port	file_syn/read_conf.h	/^	unsigned short s_port;$/;"	m	struct:sock_conf
+s_port	file_syn/work_version/read_conf.h	/^	unsigned short s_port;$/;"	m	struct:sock_conf
+s_port	ope_conf_file/tmp.c	/^	unsigned short s_port;$/;"	m	struct:sock_conf	file:
+s_port	read_sock_conf/tmp.c	/^	unsigned short s_port;$/;"	m	struct:sock_conf	file:
+sc	file_syn/work_version/xvcli_1.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sc	file_syn/work_version/xvser_1.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sc	file_syn/xvcli_1.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sc	file_syn/xvcli_debug.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sc	file_syn/xversion/xvcli_debug.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sc	file_syn/xversion/xvser_debug.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sc	file_syn/xvser_1.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sc	file_syn/xvser_debug.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sc	ope_conf_file/tmp.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sc	read_sock_conf/tmp.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sconf_file	file_syn/work_version/xvcli_1.c	/^const static char *sconf_file = "sock.conf";$/;"	v	file:
+sconf_file	file_syn/work_version/xvser_1.c	/^const static char *sconf_file = "sock.conf";$/;"	v	file:
+sconf_file	file_syn/xvcli_1.c	/^const static char *sconf_file = "sock.conf";$/;"	v	file:
+sconf_file	file_syn/xvcli_debug.c	/^const static char *sconf_file = "sock.conf";$/;"	v	file:
+sconf_file	file_syn/xversion/xvcli_debug.c	/^const static char *sconf_file = "sock.conf";$/;"	v	file:
+sconf_file	file_syn/xversion/xvser_debug.c	/^const static char *sconf_file = "sock.conf";$/;"	v	file:
+sconf_file	file_syn/xvser_1.c	/^const static char *sconf_file = "sock.conf";$/;"	v	file:
+sconf_file	file_syn/xvser_debug.c	/^const static char *sconf_file = "sock.conf";$/;"	v	file:
+send_data	file_syn/work_version/xvcli_1.c	/^int send_data(char *send_buf, int send_len)$/;"	f
+send_data	file_syn/xvcli_1.c	/^int send_data(char *send_buf, int send_len)$/;"	f
+send_data	file_syn/xvcli_debug.c	/^int send_data(char *send_buf, int send_len)$/;"	f
+send_data	file_syn/xversion/xvcli_1.c	/^int send_data(char *send_buf, int send_len)$/;"	f
+send_data	file_syn/xversion/xvcli_2.c	/^int send_data(char *send_buf, int send_len)$/;"	f
+send_data	file_syn/xversion/xvcli_debug.c	/^int send_data(char *send_buf, int send_len)$/;"	f
+send_packet	like_ping.c	/^void send_packet()$/;"	f
+send_packet	myping.c	/^void send_packet()$/;"	f
+sendpacket	like_ping.c	/^char sendpacket[PACKET_SIZE];$/;"	v
+sendpacket	myping.c	/^char sendpacket[PACKET_SIZE];$/;"	v
+sock_conf	file_syn/read_conf.h	/^struct sock_conf$/;"	s
+sock_conf	file_syn/work_version/read_conf.h	/^struct sock_conf$/;"	s
+sock_conf	ope_conf_file/tmp.c	/^struct sock_conf$/;"	s	file:
+sock_conf	read_sock_conf/tmp.c	/^struct sock_conf$/;"	s	file:
+sockfd	like_ping.c	/^int sockfd,datalen=56;$/;"	v
+sockfd	myping.c	/^int sockfd,datalen=56;$/;"	v
+speed	get/get.c	/^	__u16   speed;          \/* The forced speed, 10Mb, 100Mb, gigabit *\/  $/;"	m	struct:ethtool_cmd	file:
+statistics	like_ping.c	/^void statistics(int signo)$/;"	f
+statistics	myping.c	/^void statistics(int signo)$/;"	f
+std	file_syn/Makefile	/^	gcc xvcli_1.c md5.c display.c read_conf.c -std=gnu99 -o cc$/;"	m
+std	file_syn/work_version/Makefile	/^	gcc xvcli_1.c md5.c display.c read_conf.c -std=gnu99 -o cc$/;"	m
+supported	get/get.c	/^	__u32   supported;      \/* Features this interface supports *\/  $/;"	m	struct:ethtool_cmd	file:
+t_disbuf	chksum/xvser_1.c	52;"	d	file:
+t_disbuf	file_syn/display.h	2;"	d
+t_disbuf	file_syn/work_version/display.h	2;"	d
+t_disbuf	file_syn/xversion/xvcli_1.c	49;"	d	file:
+t_disbuf	file_syn/xversion/xvcli_2.c	49;"	d	file:
+t_disbuf	file_syn/xversion/xvser_1.c	32;"	d	file:
+t_disbuf	file_syn/xversion/xvser_2.c	57;"	d	file:
+transceiver	get/get.c	/^	__u8    transceiver;    \/* Which transceiver to use *\/  $/;"	m	struct:ethtool_cmd	file:
+trim	file_syn/read_conf.c	/^char* trim(char *str)$/;"	f
+trim	file_syn/work_version/read_conf.c	/^char* trim(char *str)$/;"	f
+trim	ope_conf_file/tmp.c	/^char* trim(char *str)$/;"	f
+trim	read_sock_conf/tmp.c	/^char* trim(char *str)$/;"	f
+tv_sub	like_ping.c	/^	void tv_sub(struct timeval *out,struct timeval *in)$/;"	f
+tv_sub	myping.c	/^	void tv_sub(struct timeval *out,struct timeval *in)$/;"	f
+tvrecv	like_ping.c	/^struct timeval tvrecv;$/;"	v	typeref:struct:timeval
+tvrecv	myping.c	/^struct timeval tvrecv;$/;"	v	typeref:struct:timeval
+unpack	like_ping.c	/^int unpack(char *buf,int len)$/;"	f
+unpack	myping.c	/^int unpack(char *buf,int len)$/;"	f
+updateRecord	ope_conf_file/tmp.c	/^int updateRecord(int keyIndex,int numRecord,char **Record,char *fileName,char *c)$/;"	f
+write_new_file	file_syn/xversion/xvser_1.c	/^int write_new_file(char *file_buf, int file_len)$/;"	f
+write_new_file	file_syn/xversion/xvser_2.c	/^int write_new_file(char *file_buf, int file_len)$/;"	f
+write_new_file	file_syn/xversion/xvser_debug.c	/^int write_new_file(char *file_buf, int file_len)$/;"	f
+write_new_file	file_syn/xvser_1.c	/^int write_new_file(char *file_buf, int file_len)$/;"	f
+write_new_file	file_syn/xvser_debug.c	/^int write_new_file(char *file_buf, int file_len)$/;"	f

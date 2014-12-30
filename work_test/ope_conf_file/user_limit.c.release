@@ -1,0 +1,393 @@
+#include <malloc.h>
+#include <stdarg.h>
+#include <string.h>
+#include <stdlib.h>
+#include <memory.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <time.h>
+#include <fcntl.h>
+#include <errno.h>
+#include "webadmin.h"
+#include "cgi.h"
+
+#define DAY_TIME_SEC 60*60*24
+#define BUF_SIZE		128
+#define USER_LIMIT_CONF "./user_limit.conf"
+
+#define SYS_CONF "./system.conf"
+#define FLG_PASS_LIMIT "pass_limit="
+
+//添加用户密码超时时间记录
+int user_passwd_limit_time_add(char *user_name)
+{
+	int limit_day = 0;
+
+	if (!user_name)
+		return 0;
+
+	if ( (limit_day = user_passwd_get_limit_date()) < 0)
+		return 0;
+
+	//查看是否存在同名用户
+	int ret = ExistRecord(0, user_name, USER_LIMIT_CONF, NULL);
+	if (ret == 1) {
+		printf("user has exist\n");
+		return 0;
+	}
+	else 
+	{
+		char *pFields[2];
+		pFields[0] = user_name;	
+	printf("field0:%s\n", pFields[0]);
+		
+		char buf_usr_passwd_create[BUF_SIZE]= {0};
+		char fmt_usr_passwd_create[BUF_SIZE]= {0};
+		char webfmt_usr_passwd_create[BUF_SIZE]= {0};
+
+		time_t t_usr_passwd_create = time(NULL);
+		sprintf(buf_usr_passwd_create, "%d", t_usr_passwd_create);
+		pFields[1] = buf_usr_passwd_create;
+
+		struct tm *tmp;
+		tmp = localtime(&t_usr_passwd_create);
+		if (tmp == NULL) {
+			perror("localtime");
+			return -1;
+		}
+
+		if (strftime(fmt_usr_passwd_create, sizeof(fmt_usr_passwd_create), "%F", tmp) == 0) {
+			fprintf(stderr, "strftime returned 0");
+			return -1;
+		}
+
+		int x[3];
+
+	printf("Result string is \"%s\"\n", fmt_usr_passwd_create);
+		sscanf(fmt_usr_passwd_create, "%d-%d-%d", &x[0], &x[1], &x[2]);
+		printf("@@@:%d %d %d", x[0], x[1], x[2]);
+		
+		sprintf(webfmt_usr_passwd_create, "%d年%d月%d日", x[0], x[1], x[2]);
+	printf("Result string is \"%s\"\n", webfmt_usr_passwd_create);
+
+	printf("field1:%s\n", pFields[1]);	
+
+		char buf_usr_passwd_limit[BUF_SIZE]= {0};
+		char fmt_usr_passwd_limit[BUF_SIZE]= {0};
+
+		time_t t_usr_passwd_limit = t_usr_passwd_create + DAY_TIME_SEC * limit_day;
+		sprintf(buf_usr_passwd_limit, "%d", t_usr_passwd_limit);
+		pFields[2] = buf_usr_passwd_limit;
+
+		tmp = localtime(&t_usr_passwd_limit);
+		if (tmp == NULL) {
+			perror("localtime");
+			return -1;
+		}
+
+		if (strftime(fmt_usr_passwd_limit, sizeof(fmt_usr_passwd_limit), "%F", tmp) == 0) {
+			fprintf(stderr, "strftime returned 0");
+			return -1;
+		}
+		printf("Result string is \"%s\"\n", fmt_usr_passwd_limit);
+		
+		printf("field2:%s\n", pFields[2]);	
+
+		ret = addRecord(0, 3, pFields, USER_LIMIT_CONF, NULL);
+	}
+
+	return 1;
+}
+
+//修改用户密码超时时间
+int user_passwd_limit_time_modify(char *user_name)
+{
+	int limit_day = 0;
+
+	if (!user_name)
+		return 0;
+
+	if ( (limit_day = user_passwd_get_limit_date()) < 0)
+		return 0;
+
+	int ret = ExistRecord(0, user_name, USER_LIMIT_CONF, NULL);
+	if (ret == 0) {
+		printf("user is not exist, can't modify!\n");
+		return 0;
+	}
+	else 
+	{
+		char **pFields = NULL;
+		
+		ret = getFieldValue(0, user_name, 3, &pFields, USER_LIMIT_CONF, NULL);
+		if (ret)
+		{
+			//dispOperateInfo(NULL,ret,NULL);
+			//printf("*********************\n");
+			return ret;
+		}
+
+		char buf_usr_passwd_now [BUF_SIZE]= {0};
+		char fmt_usr_passwd_now[BUF_SIZE]= {0};
+
+		time_t t_usr_passwd_now = time(NULL);
+		sprintf(buf_usr_passwd_now, "%d", t_usr_passwd_now);
+		pFields[1] = buf_usr_passwd_now;
+		
+		struct tm *tmp;
+		tmp = localtime(&t_usr_passwd_now);
+		if (tmp == NULL) {
+			return -1;
+		}
+
+		if (strftime(fmt_usr_passwd_now, sizeof(fmt_usr_passwd_now), "%F", tmp) == 0) {
+			return -1;
+		}
+
+		char buf_usr_passwd_limit[BUF_SIZE]= {0};
+		char fmt_usr_passwd_limit[BUF_SIZE]= {0};
+
+		time_t t_usr_passwd_limit = t_usr_passwd_now+ DAY_TIME_SEC * limit_day;
+		sprintf(buf_usr_passwd_limit, "%d", t_usr_passwd_limit);
+		pFields[2] = buf_usr_passwd_limit;
+
+		tmp = localtime(&t_usr_passwd_limit);
+		if (tmp == NULL) {
+			perror("localtime");
+			return -1;
+		}
+
+		if (strftime(fmt_usr_passwd_limit, sizeof(fmt_usr_passwd_limit), "%F", tmp) == 0) {
+			fprintf(stderr, "strftime returned 0");
+			return -1;
+		}
+		printf("Result string is \"%s\"\n", fmt_usr_passwd_limit);
+
+		ret = updateRecord(0, 3, pFields, USER_LIMIT_CONF, NULL);
+
+		return ret;
+	}
+	
+	return -1;
+}
+
+//探测一下用户的密码是否超过有效期限
+int user_passwd_limit_time_detect(char *user_name)
+{
+	if (!user_name)
+		return 0;
+
+	int ret = ExistRecord(0, user_name, USER_LIMIT_CONF, NULL);
+	if (ret == 0) {
+		printf("user is not exist, can't detect!\n");
+		return 0;
+	}
+	else 
+	{
+		puts("~~~~~~~~~1");
+		char **pFields = NULL;
+
+		time_t t_usr_passwd_limit;
+		time_t t_usr_passwd_now = time(NULL);
+
+		ret = getFieldValue(0, user_name, 3, &pFields, USER_LIMIT_CONF, NULL);
+		if (ret)
+		{
+			//dispOperateInfo(NULL,ret,NULL);
+			//printf("*********************\n");
+			return ret;
+		}
+		else
+		{
+			sscanf(pFields[2], "%d", &t_usr_passwd_limit);
+
+			time_t t_x = t_usr_passwd_limit - t_usr_passwd_now;
+			if (t_x < 0)
+			{
+				//printf("time has over\n");
+				return -1;
+			}
+			else
+			{
+				//printf("still has time\n");
+				return 1;
+			}
+
+		}
+	}
+	
+	return -1;
+}
+
+//获取当前用户密码的最后更新时间,格式为 xxxx年xx月xx日
+char *user_passwd_curr_time(char *user_name)
+{
+	if (!user_name)
+		return NULL;
+
+	int ret = ExistRecord(0, user_name, USER_LIMIT_CONF, NULL);
+	if (ret == 0) {
+		printf("user is not exist, can't get time!\n");
+		return NULL;
+	}
+	else 
+	{
+		puts("~~~~~~~~~1");
+		char **pFields = NULL;
+
+		time_t t_usr_passwd_limit;
+		time_t t_usr_passwd_now = time(NULL);
+
+		ret = getFieldValue(0, user_name, 3, &pFields, USER_LIMIT_CONF, NULL);
+		if (ret)
+		{
+			//dispOperateInfo(NULL,ret,NULL);
+			return NULL;
+		}
+		else
+		{
+			int pdate[3];
+			struct tm *tmp;
+			char buf_usr_passwd_curr[BUF_SIZE]= {0};
+			char fmt_usr_passwd_curr[BUF_SIZE]= {0};
+
+			time_t t_usr_passwd_curr;
+			sscanf(pFields[1], "%d", &t_usr_passwd_curr);
+
+			char *webfmt_usr_passwd_curr = (char*)malloc(32);
+			{
+				if (webfmt_usr_passwd_curr == NULL) {
+					free(webfmt_usr_passwd_curr);
+				}
+			}
+			memset(webfmt_usr_passwd_curr, 0x00, 32);
+
+			tmp = localtime(&t_usr_passwd_curr);
+			if (tmp == NULL) {
+				perror("localtime");
+				return NULL;
+			}
+
+			if (strftime(fmt_usr_passwd_curr, sizeof(fmt_usr_passwd_curr), "%F", tmp) == 0) {
+				fprintf(stderr, "strftime returned 0");
+				return NULL;
+			}
+
+			printf("Result string is \"%s\"\n", fmt_usr_passwd_curr);
+			sscanf(fmt_usr_passwd_curr, "%d-%d-%d", &pdate[0], &pdate[1], &pdate[2]);
+			printf("@@@:%d %d %d", pdate[0], pdate[1], pdate[2]);
+
+			sprintf(webfmt_usr_passwd_curr, "%d年%d月%d日", pdate[0], pdate[1], pdate[2]);
+			printf("Result string is \"%s\"\n", webfmt_usr_passwd_curr);
+			
+			if (webfmt_usr_passwd_curr != NULL)
+				return webfmt_usr_passwd_curr;	
+		}
+	}
+	
+	return NULL;
+}
+
+//获得当前用户密码的期限截止时间，格式为 xxxx年xx月xx日
+char *user_passwd_limit_time(char *user_name)
+{
+	if (!user_name)
+		return NULL;
+
+	int ret = ExistRecord(0, user_name, USER_LIMIT_CONF, NULL);
+	if (ret == 0) {
+		printf("user is not exist, can't get time!\n");
+		return NULL;
+	}
+	else 
+	{
+		puts("~~~~~~~~~1");
+		char **pFields = NULL;
+
+		time_t t_usr_passwd_limit;
+		time_t t_usr_passwd_now = time(NULL);
+
+		ret = getFieldValue(0, user_name, 3, &pFields, USER_LIMIT_CONF, NULL);
+		if (ret)
+		{
+			//dispOperateInfo(NULL,ret,NULL);
+			return NULL;
+		}
+		else
+		{
+			int pdate[3];
+			struct tm *tmp;
+			char buf_usr_passwd_curr[BUF_SIZE]= {0};
+			char fmt_usr_passwd_curr[BUF_SIZE]= {0};
+
+			time_t t_usr_passwd_curr;
+			sscanf(pFields[2], "%d", &t_usr_passwd_curr);
+
+			char *webfmt_usr_passwd_curr = (char*)malloc(32);
+			{
+				if (webfmt_usr_passwd_curr == NULL) {
+					free(webfmt_usr_passwd_curr);
+				}
+			}
+			memset(webfmt_usr_passwd_curr, 0x00, 32);
+
+			tmp = localtime(&t_usr_passwd_curr);
+			if (tmp == NULL) {
+				perror("localtime");
+				return NULL;
+			}
+
+			if (strftime(fmt_usr_passwd_curr, sizeof(fmt_usr_passwd_curr), "%F", tmp) == 0) {
+				fprintf(stderr, "strftime returned 0");
+				return NULL;
+			}
+
+			printf("Result string is \"%s\"\n", fmt_usr_passwd_curr);
+			sscanf(fmt_usr_passwd_curr, "%d-%d-%d", &pdate[0], &pdate[1], &pdate[2]);
+			printf("@@@:%d %d %d", pdate[0], pdate[1], pdate[2]);
+
+			sprintf(webfmt_usr_passwd_curr, "%d年%d月%d日", pdate[0], pdate[1], pdate[2]);
+			printf("Result string is \"%s\"\n", webfmt_usr_passwd_curr);
+			
+			if (webfmt_usr_passwd_curr != NULL)
+				return webfmt_usr_passwd_curr;	
+		}
+	}
+	
+	return NULL;
+}
+
+
+int user_passwd_get_limit_date()
+{
+	int x = 0;
+	int ndata = -1;
+	char sdata[16] = {0};
+	char **p_sys_conf = NULL;
+	int ret = getField(0,&p_sys_conf, SYS_CONF,NULL);
+	if ((ret==0)&&(p_sys_conf))
+	{
+		int i=0;
+		char *ptmp;
+		while(p_sys_conf[i])
+		{
+			ptmp = (char*)memmem(p_sys_conf[i], strlen(p_sys_conf[i]), FLG_PASS_LIMIT, strlen(FLG_PASS_LIMIT));
+			if (ptmp != NULL) {
+				sscanf(ptmp + strlen(FLG_PASS_LIMIT), "%s", sdata);
+				printf("m:%s\n", sdata);
+				
+				for(x=0;x<strlen(sdata);x++){
+					if (!isdigit(sdata[x]))
+						return -1;
+				}
+				ndata = atoi(sdata);
+			}
+			free(p_sys_conf[i]);
+			i++;
+		}
+		free(p_sys_conf);
+	}
+
+	return ndata;
+}
+

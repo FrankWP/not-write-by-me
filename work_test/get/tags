@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARRAY_SIZE	get.c	34;"	d	file:
+ETHTOOL_GSET	get.c	39;"	d	file:
+ETHTOOL_SSET	get.c	41;"	d	file:
+SIOCETHTOOL	get.c	30;"	d	file:
+SPEED_10	get.c	53;"	d	file:
+SPEED_100	get.c	54;"	d	file:
+SPEED_1000	get.c	56;"	d	file:
+SPEED_10000	get.c	59;"	d	file:
+SPEED_2500	get.c	57;"	d	file:
+__u16	get.c	/^typedef __uint16_t __u16;       \/* ditto *\/  $/;"	t	file:
+__u32	get.c	/^typedef __uint32_t __u32;       \/* ditto *\/  $/;"	t	file:
+__u8	get.c	/^typedef __uint8_t __u8;         \/* ditto *\/  $/;"	t	file:
+advertising	get.c	/^	__u32   advertising;    \/* Features this interface advertises *\/  $/;"	m	struct:ethtool_cmd	file:
+autoneg	get.c	/^	__u8    autoneg;        \/* Enable or disable autonegotiation *\/  $/;"	m	struct:ethtool_cmd	file:
+cmd	get.c	/^	__u32   cmd;  $/;"	m	struct:ethtool_cmd	file:
+duplex	get.c	/^	__u8    duplex;         \/* Duplex, half or full *\/  $/;"	m	struct:ethtool_cmd	file:
+ethtool_cmd	get.c	/^struct ethtool_cmd {  $/;"	s	file:
+main	get.c	/^int main(int argc, char *argp[])  $/;"	f
+maxrxpkt	get.c	/^	__u32   maxrxpkt;       \/* Rx pkts before generating rx int *\/  $/;"	m	struct:ethtool_cmd	file:
+maxtxpkt	get.c	/^	__u32   maxtxpkt;       \/* Tx pkts before generating tx int *\/  $/;"	m	struct:ethtool_cmd	file:
+phy_address	get.c	/^	__u8    phy_address;  $/;"	m	struct:ethtool_cmd	file:
+port	get.c	/^	__u8    port;           \/* Which connector port *\/  $/;"	m	struct:ethtool_cmd	file:
+reserved	get.c	/^	__u32   reserved[4];  $/;"	m	struct:ethtool_cmd	file:
+speed	get.c	/^	__u16   speed;          \/* The forced speed, 10Mb, 100Mb, gigabit *\/  $/;"	m	struct:ethtool_cmd	file:
+supported	get.c	/^	__u32   supported;      \/* Features this interface supports *\/  $/;"	m	struct:ethtool_cmd	file:
+transceiver	get.c	/^	__u8    transceiver;    \/* Which transceiver to use *\/  $/;"	m	struct:ethtool_cmd	file:
