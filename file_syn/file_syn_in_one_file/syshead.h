@@ -1,9 +1,9 @@
-#include<netinet/in.h>                         // for sockaddr_in  
-#include<sys/types.h>                          // for socket  
-#include<sys/socket.h>                         // for socket  
-#include<stdio.h>                              // for printf  
-#include<stdlib.h>                             // for exit  
-#include<string.h>                             // for bzero  
+#include<netinet/in.h>              
+#include<sys/types.h>              
+#include<sys/socket.h>            
+#include<stdio.h>               
+#include<stdlib.h>             
+#include<string.h>            
 #include <unistd.h>
 #include <stdarg.h>
 #include <getopt.h>
@@ -24,4 +24,3 @@
 #include <sys/ioctl.h>
 #include <netinet/ip_icmp.h>
 #include <netinet/tcp.h>
- 
