@@ -1,0 +1,105 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BOOL	syn_file_ser.c	/^}BOOL, bool;$/;"	t	typeref:enum:__anon1	file:
+BOOL	t.c	/^}BOOL, bool;$/;"	t	typeref:enum:__anon3	file:
+BUFFER_SIZE	syn_file_ser.c	29;"	d	file:
+BUFFER_SIZE	t.c	29;"	d	file:
+F	syn_file_ser.c	119;"	d	file:
+FALSE	syn_file_ser.c	/^	FALSE = 0,$/;"	e	enum:__anon1	file:
+FALSE	t.c	/^	FALSE = 0,$/;"	e	enum:__anon3	file:
+FF	syn_file_ser.c	129;"	d	file:
+G	syn_file_ser.c	120;"	d	file:
+GG	syn_file_ser.c	134;"	d	file:
+H	syn_file_ser.c	121;"	d	file:
+HH	syn_file_ser.c	139;"	d	file:
+I	syn_file_ser.c	122;"	d	file:
+II	syn_file_ser.c	144;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	syn_file_ser.c	28;"	d	file:
+LENGTH_OF_LISTEN_QUEUE	t.c	28;"	d	file:
+MAXFD	syn_file_ser.c	30;"	d	file:
+MAXFD	t.c	37;"	d	file:
+MAXFILE	daemon.c	29;"	d	file:
+MD5Final	syn_file_ser.c	/^void MD5Final (MD5_CTX *mdContext)$/;"	f
+MD5Init	syn_file_ser.c	/^void MD5Init (MD5_CTX *mdContext)$/;"	f
+MD5Update	syn_file_ser.c	/^void MD5Update (MD5_CTX *mdContext, unsigned char *inBuf, unsigned int inLen)$/;"	f
+MD5_CTX	syn_file_ser.c	/^} MD5_CTX;$/;"	t	typeref:struct:__anon2	file:
+MD5_file	syn_file_ser.c	/^char *MD5_file (char *path, int md5_len)$/;"	f
+PADDING	syn_file_ser.c	/^static unsigned char PADDING[64] = {$/;"	v	file:
+PROGNAME	Makefile	/^PROGNAME = syn_file_ser$/;"	m
+ROTATE_LEFT	syn_file_ser.c	125;"	d	file:
+S11	syn_file_ser.c	280;"	d	file:
+S12	syn_file_ser.c	281;"	d	file:
+S13	syn_file_ser.c	282;"	d	file:
+S14	syn_file_ser.c	283;"	d	file:
+S21	syn_file_ser.c	302;"	d	file:
+S22	syn_file_ser.c	303;"	d	file:
+S23	syn_file_ser.c	304;"	d	file:
+S24	syn_file_ser.c	305;"	d	file:
+S31	syn_file_ser.c	324;"	d	file:
+S32	syn_file_ser.c	325;"	d	file:
+S33	syn_file_ser.c	326;"	d	file:
+S34	syn_file_ser.c	327;"	d	file:
+S41	syn_file_ser.c	346;"	d	file:
+S42	syn_file_ser.c	347;"	d	file:
+S43	syn_file_ser.c	348;"	d	file:
+S44	syn_file_ser.c	349;"	d	file:
+TRUE	syn_file_ser.c	/^	TRUE = 1,$/;"	e	enum:__anon1	file:
+TRUE	t.c	/^	TRUE = 1,$/;"	e	enum:__anon3	file:
+Transform	syn_file_ser.c	/^static void Transform (UINT4 *buf, UINT4 *in)$/;"	f	file:
+UINT4	syn_file_ser.c	/^typedef unsigned long int UINT4;$/;"	t	file:
+__conf_item	syn_file_ser.c	/^typedef struct __conf_item$/;"	s	file:
+__query_conf	syn_file_ser.c	/^typedef struct __query_conf$/;"	s	file:
+bool	syn_file_ser.c	/^}BOOL, bool;$/;"	t	typeref:enum:__anon1	file:
+bool	t.c	/^}BOOL, bool;$/;"	t	typeref:enum:__anon3	file:
+buf	syn_file_ser.c	/^	UINT4 buf[4];                                    \/* scratch buffer *\/$/;"	m	struct:__anon2	file:
+conf_item	syn_file_ser.c	/^} conf_item;$/;"	t	typeref:struct:__conf_item	file:
+create_daemon	daemon.c	/^int create_daemon()  $/;"	f
+create_daemon	syn_file_ser.c	/^pid_t create_daemon()$/;"	f
+create_daemon	t.c	/^pid_t create_daemon()$/;"	f
+deal_with_item_line	syn_file_ser.c	/^static conf_item *deal_with_item_line(char *read_line, query_conf **p_conf_que, conf_item **p_item_tail)$/;"	f	file:
+deal_with_label_line	syn_file_ser.c	/^static query_conf *deal_with_label_line(char *read_line, query_conf **p_conf_head, query_conf **p_conf_tail)$/;"	f	file:
+digest	syn_file_ser.c	/^	unsigned char digest[16];     \/* actual digest after MD5Final call *\/$/;"	m	struct:__anon2	file:
+false	syn_file_ser.c	/^	false = 0$/;"	e	enum:__anon1	file:
+false	t.c	/^	false = 0$/;"	e	enum:__anon3	file:
+find_label	syn_file_ser.c	/^query_conf *find_label(query_conf *p_query_conf, char *label_name)$/;"	f
+free_configuration	syn_file_ser.c	/^void free_configuration(query_conf **pque)$/;"	f
+free_item	syn_file_ser.c	/^void free_item(conf_item **item)$/;"	f
+get_value_from_label	syn_file_ser.c	/^char *get_value_from_label(query_conf *que, char *item_name)$/;"	f
+i	syn_file_ser.c	/^	UINT4 i[2];                   \/* number of _bits_ handled mod 2^64 *\/$/;"	m	struct:__anon2	file:
+in	syn_file_ser.c	/^	unsigned char in[64];                              \/* input buffer *\/$/;"	m	struct:__anon2	file:
+inet_atoul	syn_file_ser.c	/^unsigned int inet_atoul(const char * s)$/;"	f
+init_sock_conf	syn_file_ser.c	/^int init_sock_conf(unsigned int s_ip, unsigned short s_port)$/;"	f
+item_name	syn_file_ser.c	/^    char *item_name;$/;"	m	struct:__conf_item	file:
+item_next	syn_file_ser.c	/^    struct __conf_item *item_next;$/;"	m	struct:__conf_item	typeref:struct:__conf_item::__conf_item	file:
+item_value	syn_file_ser.c	/^    char *item_value;$/;"	m	struct:__conf_item	file:
+label_item	syn_file_ser.c	/^    conf_item *label_item;$/;"	m	struct:__query_conf	file:
+label_name	syn_file_ser.c	/^    char *label_name;$/;"	m	struct:__query_conf	file:
+label_next	syn_file_ser.c	/^    struct __query_conf *label_next;$/;"	m	struct:__query_conf	typeref:struct:__query_conf::__query_conf	file:
+line_from_buf	syn_file_ser.c	/^char* line_from_buf(char *cursor, char *store, int storesz)$/;"	f
+load_configuration	syn_file_ser.c	/^query_conf * load_configuration(const char *filepath)$/;"	f
+main	daemon.c	/^int main(int argc , char **argv)  $/;"	f
+main	syn_file_ser.c	/^int main(int argc, char **argv)  $/;"	f
+main	t.c	/^int main(int argc, char **argv)  $/;"	f
+md5_src	syn_file_ser.c	/^char md5_src[33];$/;"	v
+pre_deal_with_line	syn_file_ser.c	/^char *pre_deal_with_line(char *line)$/;"	f
+query_conf	syn_file_ser.c	/^} query_conf;$/;"	t	typeref:struct:__query_conf	file:
+read_sock_conf	syn_file_ser.c	/^int read_sock_conf()$/;"	f
+recv_file_data	syn_file_ser.c	/^int recv_file_data()$/;"	f
+replace_conf_file	syn_file_ser.c	/^int replace_conf_file(char *fsrc, char *fdst)$/;"	f
+s_ip	syn_file_ser.c	/^	unsigned int s_ip;$/;"	m	struct:sock_conf	file:
+s_port	syn_file_ser.c	/^	unsigned short s_port;$/;"	m	struct:sock_conf	file:
+sc	syn_file_ser.c	/^struct sock_conf sc;$/;"	v	typeref:struct:sock_conf
+sconf_file	syn_file_ser.c	/^const static char *sconf_file = "sock.conf";$/;"	v	file:
+sock_conf	syn_file_ser.c	/^struct sock_conf$/;"	s	file:
+syn_sock	syn_file_ser.c	/^static char *syn_sock = "syn_sock.conf";$/;"	v	file:
+syn_sock_conf_ip	syn_file_ser.c	/^static char *syn_sock_conf_ip = "syn_sock_conf_ip";$/;"	v	file:
+syn_sock_conf_label	syn_file_ser.c	/^static char *syn_sock_conf_label = "socket";$/;"	v	file:
+syn_sock_conf_port	syn_file_ser.c	/^static char *syn_sock_conf_port = "syn_sock_conf_port";$/;"	v	file:
+trim	syn_file_ser.c	/^char* trim(char *str)$/;"	f
+true	syn_file_ser.c	/^	true = 1,$/;"	e	enum:__anon1	file:
+true	t.c	/^	true = 1,$/;"	e	enum:__anon3	file:
+write_new_file	syn_file_ser.c	/^int write_new_file(char *file_buf, int file_len)$/;"	f
