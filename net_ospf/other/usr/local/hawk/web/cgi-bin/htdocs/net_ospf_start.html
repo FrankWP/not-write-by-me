@@ -1,0 +1,14 @@
+<html>
+<body>
+<form name="form2" method="post" action="/cgi-bin/service_start.cgi">
+<input type="hidden" name="service_name" value="net_ospf">
+<input type="hidden" name="service_path" value="/usr/local/hawk/net_ospf/net_ospf">
+<input type="hidden" name="init_script" value="/etc/rc.d/rc.start/39.net_ospf">
+<input type="hidden" name="start_script" value="/etc/rc.d/init.d/net_ospf.sh">
+<input type="hidden" name="module_name" value="OSPF协议透传服务">
+</form>
+<script language="JavaScript">
+form2.submit()
+</script>
+</body>
+</html>
