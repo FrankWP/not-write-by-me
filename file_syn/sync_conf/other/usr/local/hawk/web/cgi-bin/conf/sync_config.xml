@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="gb2312"?>
+<item cgiProgram="/cgi-bin/updateModify_new.cgi"  script="./script/sync_config_lab.sh">
+	<data_source>
+  		<config_file name="/storage/hawk/ha/sync_config/sync_sock.conf"/>
+ 	</data_source>
+ 	<var name="sync_sock_cli_ip">
+ 		<from source_section="syncli" item_name="sync_sock_cli_ip"/>
+ 		<to config="/storage/hawk/ha/sync_config/sync_sock.conf" section="syncli" item_name="sync_sock_cli_ip" spacer="="/>
+ 		<limit type="local_ip"  empty="no" content="同步地址"/>
+ 	</var> 	
+ 	<var name="sync_sock_cli_port">
+ 		<from source_section="syncli" item_name="sync_sock_cli_port" select_section="default"/>
+ 		<to config="/storage/hawk/ha/sync_config/sync_sock.conf" section="syncli" item_name="sync_sock_cli_port" spacer="="/>
+ 		<limit type="port"  empty="no" content="同步端口"/>
+ 	</var>
+</item>

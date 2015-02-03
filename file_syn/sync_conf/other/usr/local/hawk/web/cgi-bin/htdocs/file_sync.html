@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script language=javascript src="/timeout.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>配置文件同步</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.zi01 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.zi02 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.zi011 {	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 15px;
+}
+-->
+</style>
+<link href="/css/listModify.css" rel="stylesheet" type="text/css" />
+<script language=Javascript>
+function AllSelect()
+{
+
+  if(form1.allSelect.value==0)
+  	form1.allSelect.value = 1;
+  else
+  	form1.allSelect.value = 0;
+
+
+  	var aa = document.getElementsByName("file");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  	aa = document.getElementsByName("dbsync");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  	aa = document.getElementsByName("http");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  	aa = document.getElementsByName("ftp");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  	aa = document.getElementsByName("onlyftp");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  	  	aa = document.getElementsByName("onlydb");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  	  	aa = document.getElementsByName("onlymail");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  	  	aa = document.getElementsByName("socks");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  		  	aa = document.getElementsByName("ha");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  		  	aa = document.getElementsByName("tcp");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  		 		  	aa = document.getElementsByName("udp");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  		
+	aa = document.getElementsByName("snmp");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+	aa = document.getElementsByName("sslChannel");
+	if(form1.allSelect.value==0)
+		aa[0].checked = 0;
+	else
+		aa[0].checked = 1;
+  		
+  	aa = document.getElementsByName("etc");
+  	if(form1.allSelect.value==0)
+  		aa[0].checked = 0;
+  	else
+  		aa[0].checked = 1;
+  		
+  	aa = document.getElementsByName("admin");
+	if(form1.allSelect.value==0)
+		aa[0].checked = 0;
+	else	
+		aa[0].checked = 1;  		
+  
+}
+</script>
+</head>
+<body bgcolor="#A0B4C1">
+<form name="form1" method="post" action="/cgi-bin/updateModify_new.cgi">
+<input type="hidden" name=allSelect value=0>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#99BBE8" class="zi01">
+<tr>
+<td height="38" bgcolor="#A0B4C1">
+	<table width="120" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+		<td><img src="/images/niu01.jpg" width="8" height="35" /></td>
+		<td width="103" background="/images/di03.jpg">
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="zi01">
+			<tr>
+			<td width="24%"><img src="/images/biao05.jpg" width="15" height="14" /></td>
+			<td width="76%"><strong>配置文件同步</strong></td>
+			</tr>
+		</table>
+		</td>
+		<td><img src="/images/niu02.jpg" width="9" height="35" /></td>
+		</tr>
+	</table>
+</td>
+</tr>
+<tr><td align="center" bgcolor="#F0F0FD">
+	<table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr><td>&nbsp;</td></tr>
+	<tr><td align="center" bgcolor="F0F0FD">
+	<table id="listModify"><thead><tr>
+	<th width=400 align="center">配置项</th>
+	<th align="center" width=400><div title="全选/全清" onclick="AllSelect()">导出</div></th></tr></thead>
+	<tbody>
+	
+	<tr><td width=400 align="center">文件交换</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="file" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">数据库同步</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="dbsync" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">安全浏览</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="http" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">安全FTP</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="ftp" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">FTP访问</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="onlyftp" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">数据库访问</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="onlydb" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">邮件访问</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="onlymail" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">SOCKS模块</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="socks" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">双机热备和负载均衡</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="ha" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">TCP访问</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="tcp" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">UDP访问</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="udp" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">SNMP配置</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="snmp" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">SSL通道配置</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="sslChannel" value="yes">
+	</bhl_item>
+	</td>	
+	
+	<tr><td width=400 align="center">管理员配置</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="admin" value="yes">
+	</bhl_item>
+	</td>
+	
+	<tr><td width=400 align="center">网络配置及其他</td>
+	<td width=400>
+	<bhl_item>
+	<input type="checkbox" name="etc" value="yes">
+	</bhl_item>
+	</td>
+	
+	</tbody>
+	</table>
+	<div id="addcar"></div>
+	<input type=hidden name=xml value=./conf/file_sync.xml>
+	<input type=hidden name=itemName value=item>
+	<p><p>
+	<table id="bottom">
+	<input type="submit" value="确定">
+	</table>
+	</table>
+</table>
+</form>
+</body>
+</html>

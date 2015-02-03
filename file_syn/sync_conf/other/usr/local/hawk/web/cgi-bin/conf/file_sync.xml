@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="gb2312"?>
+<item cgiProgram="/cgi-bin/updateModify_new.cgi" title="配置同步" script="./script/config_file.sh">
+	<data_source>
+  		<config_file name="/storage/hawk/ha/sync_config/config_file.conf"></config_file>
+ 	</data_source>
+ 	
+ 	<var name="file" default="no">
+ 		<from source_section="default" item_name="file"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="file" spacer="="/>
+ 	</var>
+ 	<var name="dbsync" default="no">
+ 		<from source_section="default" item_name="dbsync"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="dbsync" spacer="="/>
+ 	</var>
+ 	<var name="http" default="no">
+ 		<from source_section="default" item_name="http"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="http" spacer="="/>
+ 	</var>
+ 	<var name="ftp" default="no">
+ 		<from source_section="default" item_name="ftp"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="ftp" spacer="="/>
+ 	</var>
+ 	
+ 	<var name="onlyftp" default="no">
+ 		<from source_section="default" item_name="onlyftp"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="onlyftp" spacer="="/>
+ 	</var>
+ 	<var name="onlydb" default="no">
+ 		<from source_section="default" item_name="onlydb"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="onlydb" spacer="="/>
+ 	</var>
+ 	<var name="onlymail" default="no">
+ 		<from source_section="default" item_name="onlymail"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="onlymail" spacer="="/>
+ 	</var>
+ 	<var name="socks" default="no">
+ 		<from source_section="default" item_name="socks"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="socks" spacer="="/>
+ 	</var>
+ 	<var name="ha" default="no">
+ 		<from source_section="default" item_name="ha"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="ha" spacer="="/>
+ 	</var>
+ 	<var name="tcp" default="no">
+ 		<from source_section="default" item_name="tcp"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="tcp" spacer="="/>
+ 	</var>
+ 	<var name="udp" default="no">
+ 		<from source_section="default" item_name="udp"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="udp" spacer="="/>
+ 	</var>
+ 	<var name="snmp" default="no">
+ 		<from source_section="default" item_name="snmp"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="snmp" spacer="="/>
+ 	</var>
+ 	<var name="sslChannel" default="no">
+ 		<from source_section="default" item_name="sslChannel"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="sslChannel" spacer="="/>
+ 	</var>
+ 	<var name="etc" default="no">
+ 		<from source_section="default" item_name="etc"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="etc" spacer="="/>
+ 	</var>
+ 	<var name="admin" default="no">
+ 		<from source_section="default" item_name="admin"/>
+ 		<to config="/storage/hawk/ha/sync_config/config_file.conf" section="default" item_name="admin" spacer="="/>
+ 	</var>
+</item>

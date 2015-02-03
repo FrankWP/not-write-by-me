@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script language=javascript src="/timeout.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.zi01 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.zi02 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.zi011 {	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 15px;
+}
+-->
+</style>
+<link href="/css/listModify.css" rel="stylesheet" type="text/css" />
+<script language="javascript">
+</script>
+</head>
+
+<body bgcolor="#A0B4C1">
+<form name="form1" method="post" action="/cgi-bin/updateModify_new.cgi">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#99BBE8" class="zi01">
+<tr>
+<td height="38" bgcolor="#A0B4C1">
+	<table width="120" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+		<td><img src="/images/niu01.jpg" width="8" height="35" /></td>
+		<td width="103" background="/images/di03.jpg">
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" class="zi01">
+			<tr>
+			<td width="24%"><img src="/images/biao05.jpg" width="15" height="14" /></td>
+			<td width="76%"><strong>配置同步</strong></td>
+			</tr>
+		</table>
+		</td>
+		<td><img src="/images/niu02.jpg" width="9" height="35" /></td>
+		</tr>
+	</table>
+</td>
+</tr>
+<tr><td align="center" bgcolor="#F0F0FD">
+	<table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+	<tr><td>&nbsp;</td></tr>
+	<tr><td align="center" bgcolor="F0F0FD">
+<table id="listModify"><thead><tr>
+<th width=100>配置项</th><th width="480">配置内容</th></tr></thead>
+<tbody>
+
+<tr><td width=100 align="left" style="padding-left:30px">同步地址</td>
+<td width=480 align="left" style="padding-left:20px">
+<bhl_item>
+<input type="text" name="sync_sock_ser_ip">
+</bhl_item>
+</td></tr>
+
+<tr><td width=100 align="left" style="padding-left:30px">同步端口</td>
+<td width=480 align="left" style="padding-left:20px">
+<bhl_item>
+<input type="text" name="sync_sock_ser_port" size="10">
+</bhl_item>
+</td></tr>
+
+</tbody>
+</table>
+<div id="addcar"></div>
+<input type=hidden name=xml value=./conf/sync_config_ser.xml>
+<input type=hidden name=itemName value=item>
+<bhl_item>
+<input type=hidden name="witchSide" >
+</bhl_item>
+<p><p>
+<table id="bottom">
+<input type="submit" value="确定">
+</table>
+
+	</table>
+</table>
+</form>
+</body>
+</html>
